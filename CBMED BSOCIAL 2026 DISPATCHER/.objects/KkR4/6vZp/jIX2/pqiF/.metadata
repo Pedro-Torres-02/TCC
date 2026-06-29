@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Medicina do Trobalho",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "pqiF5rqHaEqvQVSP7Lh9PA",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/pqiF5rqHaEqvQVSP7Lh9PA",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T07:09:38.6929695Z",
+  "Updated": "2025-12-03T07:09:38.6929695Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

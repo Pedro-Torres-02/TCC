@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome SesmoWeb - LogIn",
+  "Type": "Screen",
+  "Id": "dJqgKGC-r0OdShqX4GjXLA",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/dJqgKGC-r0OdShqX4GjXLA",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/6vZp_eXPkE-BXOBcjHOk7g",
+  "Created": "2025-12-03T06:43:49.7035456Z",
+  "Updated": "2025-12-03T06:43:49.7035456Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

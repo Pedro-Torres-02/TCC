@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="j7Ul2bSMvkKQDpeFE5n4oA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="b47e0566-7a1e-4d75-a190-5ba1b913d00f" CvElementArea="172, 557, 1047, 59" CvType="InputBox" DesignTimeRectangle="175, 559, 1044, 56" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' parentid='div-pesquisa' tag='DIV' class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-3yp7tr' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2191c2f8-3aea-4354-b248-948e814d0d4d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b47e0566-7a1e-4d75-a190-5ba1b913d00f" CvElementArea="165, 493, 1057, 34" CvType="InputBox" DesignTimeRectangle="163, 494, 1056, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H6' type='' class='MuiTypography-root MuiTypography-h6 css-trr9sm' aaname='Gestão de Empregados' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gestão de Empregados' /&gt;" Guid="2fbf716c-eb27-4331-bfed-b180f1298b37" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="32afe68e2b98d1de3853161fa194251f.png" xmlns="">0cZRSiMhF4k2_ndPIiYp2IA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

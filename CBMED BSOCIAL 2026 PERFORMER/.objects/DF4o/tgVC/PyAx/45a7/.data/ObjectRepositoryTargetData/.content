@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qvwDyKhltEKkwztjYVV-3A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="2f3a1bc6-e443-4b4a-af6f-d9bdd1556cf9" CvType="AnyWordGroup" DesignTimeRectangle="519, 473, 296, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' parentid='scrollable-auto-tabpanel-10107220180-0-0' tag='P' /&gt;" Guid="f1e7df46-f7d8-4c1e-a920-e417b87e5552" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2f3a1bc6-e443-4b4a-af6f-d9bdd1556cf9" CvTextArea="518, 452, 70, 15" CvTextArgument="Matrícula" CvType="Text" DesignTimeRectangle="519, 449, 296, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Matrícula' parentid='scrollable-auto-tabpanel-10107220180-0-0' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-fyswvn' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Matrícula' /&gt;" Guid="e73851ca-70b0-44de-9fef-64ff949e598e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="34725440ca087e61acff845d33624c7f.png" xmlns="">0YNcaNHhuE0ulzbXYggneog</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

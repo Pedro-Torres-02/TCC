@@ -1,0 +1,13 @@
+﻿{
+  "Name": "eSocial",
+  "Type": "Element",
+  "Id": "aFGI5Br0jkOIkgkmTpG73g",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/aFGI5Br0jkOIkgkmTpG73g",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw",
+  "Created": "2025-12-08T08:27:20.2422093Z",
+  "Updated": "2025-12-08T08:27:20.2422093Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

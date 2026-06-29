@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bs6McOsr5EC08cIWuU6DWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="e886e34e-fc23-439d-b507-1f54cc7b8563" CvElementArea="611, 430, 159, 173" CvType="Button" DesignTimeRectangle="624, 441, 132, 94" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='sst' tag='DIV' /&gt;" Guid="54f36736-7fb5-4fd0-889a-f350b5817c08" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e886e34e-fc23-439d-b507-1f54cc7b8563" CvElementArea="611, 430, 159, 173" CvType="Button" DesignTimeRectangle="624, 535, 132, 53" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='sst' tag='SPAN' type='' class='' aaname='Segurança e Saúde no Trabalho' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Segurança e Saúde no Trabalho' /&gt;" Guid="1e7535fd-eaf1-420c-a582-b7b32e0f8579" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="58931c10b37dce3fa84021302056d5bf.png" xmlns="">0Rvp_t8nI6kWVAM38Twgg5w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

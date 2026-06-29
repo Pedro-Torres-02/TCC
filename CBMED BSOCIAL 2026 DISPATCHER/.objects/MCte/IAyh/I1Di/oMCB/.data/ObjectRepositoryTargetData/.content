@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mfFvYQSd-k2ZoE0omOGitQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="1eea1473-9167-49fa-93cc-497260a36237" CvElementArea="132, 385, 812, 23" CvType="InputBox" DesignTimeRectangle="136, 389, 791, 17" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='Painel do Explorer' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='Nome:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="aa1e23dd-fb94-45be-8eca-75b265f6897d" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1eea1473-9167-49fa-93cc-497260a36237" CvTextArea="91, 391, 37, 12" CvTextArgument="Nome:" CvType="Text" DesignTimeRectangle="18, 386, 115, 23" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='Painel do Explorer' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='Painel do Explorer' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Painel de Layout de Pastas' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Painel de Detalhes' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Nome:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Nome:' /&gt;" Guid="929c32cb-cab2-4f3c-877c-ecbd5b10c3c4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d1ec41683f63141782f75528e9baf60b.png" xmlns="">0Y5dtkCxaQUO_8kfeRK2q2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

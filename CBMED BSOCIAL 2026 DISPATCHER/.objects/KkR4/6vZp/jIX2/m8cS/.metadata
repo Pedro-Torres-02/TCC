@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DIV db_1764750738010",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "m8cSfnpbY0C4pTQAbSHd0g",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/m8cSfnpbY0C4pTQAbSHd0g",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T08:40:10.1147907Z",
+  "Updated": "2025-12-03T08:40:10.1147907Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

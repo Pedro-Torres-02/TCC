@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pLxX9QC2X0-Ur40Y3m21Pw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="052aed0d-14eb-4adf-9b44-7c910c7d6c70" CvElementArea="142, 40, 308, 35" CvType="InputBox" DesignTimeRectangle="380, 41, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Carregando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Faixa de endereços' /&gt;&lt;ctrl name='Faixa de endereços' role='tool bar' /&gt;&lt;ctrl name='Locais Anteriores' role='push button' /&gt;" Guid="4bfcd7b6-4069-42a8-9ce7-3af9945b1c0f" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="052aed0d-14eb-4adf-9b44-7c910c7d6c70" CvElementArea="142, 40, 308, 35" CvType="InputBox" DesignTimeRectangle="414, 41, 34, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Carregando' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Faixa de endereços' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Faixa de endereços' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Atualizar &amp;quot;Planilhas Inconsistencias&amp;quot; (F5)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Atualizar &amp;quot;Planilhas Inconsistencias&amp;quot; (F5)' /&gt;" Guid="c107b913-cbbc-417b-9760-4f7a0e5f2634" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fce5016a1b420a6452e41641a8335d8d.png" xmlns="">0_ToywSfjyUaOwFA9p3YPEg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

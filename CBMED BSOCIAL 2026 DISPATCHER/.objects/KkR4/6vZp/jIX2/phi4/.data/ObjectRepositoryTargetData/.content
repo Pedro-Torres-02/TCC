@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="25hO75UVaEuVFDptt_o5Bw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvElementArea="529, 406, 322, 28" CvType="InputBox" DesignTimeRectangle="539, 412, 304, 17" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;gnc-element&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' type='password' /&gt;" Guid="cbcc7b0f-d164-4688-8b2c-3f883a98e058" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvTextArea="546, 471, 61, 12" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="547, 472, 61, 10" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764750738038' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="7d9bc283-7f2c-4b25-a565-19f163b5f5ad" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e869fb7c7a50a7be1346d267feb1015b.png" xmlns="">00xAeCwzA4EmfMCPTIh4ukg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

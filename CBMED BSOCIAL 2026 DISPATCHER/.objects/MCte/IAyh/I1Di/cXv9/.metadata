@@ -1,0 +1,14 @@
+﻿{
+  "Name": "ATENÇÃO!",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "cXv9Mby2_EOS8pChhlQ2Uw",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/cXv9Mby2_EOS8pChhlQ2Uw",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw",
+  "Created": "2025-12-08T08:28:09.7101828Z",
+  "Updated": "2025-12-08T08:28:09.7101828Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

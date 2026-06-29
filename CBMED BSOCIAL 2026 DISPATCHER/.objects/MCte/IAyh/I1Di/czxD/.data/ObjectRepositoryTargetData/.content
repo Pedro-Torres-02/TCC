@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="1NfydMFLZUO7uAsdNVzWow" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="958d3ecd-de32-49e1-923f-6cd1d707ff8e" CvTextArea="989, 525, 37, 11" CvTextArgument="S2220" CvType="Text" DesignTimeRectangle="989, 524, 39, 13" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='S2220' parentid='db_1765185299610' tag='LABEL' /&gt;" Guid="fbf795f0-9884-4d94-80c4-7c2df8e6631f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="958d3ecd-de32-49e1-923f-6cd1d707ff8e" CvTextArea="848, 503, 55, 11" CvTextArgument="Eventos:" CvType="Text" DesignTimeRectangle="849, 502, 53, 13" FuzzySelectorArgument="&lt;webctrl id='db_1765185299379' tag='LEGEND' type='' class='Gnc-FieldSet-V1-Legend' aaname='Eventos:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Eventos:' /&gt;" Guid="86c06c8e-e693-42d5-b508-48da2ce430a8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f59c34faffe84ab85ac7284ae4298e3.png" xmlns="">0fEl_nL_GW0iGucKKaqP3lA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

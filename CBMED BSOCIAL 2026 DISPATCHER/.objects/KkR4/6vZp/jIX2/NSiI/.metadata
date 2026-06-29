@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Entrar(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "NSiIhcomaUO3vyXDYdU2nA",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/NSiIhcomaUO3vyXDYdU2nA",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T07:54:57.8035088Z",
+  "Updated": "2025-12-03T07:54:57.8035088Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

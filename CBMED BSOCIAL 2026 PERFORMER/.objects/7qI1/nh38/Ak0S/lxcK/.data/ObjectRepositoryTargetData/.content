@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Q-3t4I_DU27PrfQqJnHfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="6a1e7315-1199-4ca1-ad69-dd598364d033" CvElementArea="608, 378, 13, 14" CvTextArea="610, 380, 199, 10" CvTextArgument="- Importação feita com sucesso" CvType="Button" DesignTimeRectangle="607, 372, 948, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='db_1767594862715' tag='DIV' /&gt;" Guid="5a77459b-79e7-4784-b03a-0a9e0cb9cc77" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(3) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6a1e7315-1199-4ca1-ad69-dd598364d033" CvTextArea="612, 351, 148, 13" CvTextArgument="Nome do Colaborador" CvType="Text" DesignTimeRectangle="613, 351, 146, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1767594862696' tag='SPAN' type='' class='' aaname='Nome do Colaborador' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Nome do Colaborador' /&gt;" Guid="61e8c436-6f2b-4dca-8b6a-e6d89f2dffbb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8cb5a54d37dae63bcf34d8f5596675ab.png" xmlns="">0MmENPfnZNU6FKam40N8tAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

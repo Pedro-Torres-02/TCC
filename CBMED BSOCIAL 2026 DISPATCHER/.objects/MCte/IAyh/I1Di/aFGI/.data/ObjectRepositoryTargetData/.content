@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S4-bUitPkESxt95wzNR1Dw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="f289c079-1672-47b8-aef9-4c556c036454" CvElementArea="881, 128, 63, 25" CvType="Button" DesignTimeRectangle="887, 132, 19, 18" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='GncControl/Gnc/ImgsGnc/ImgModulo/Esocial-over.png?vs=31.10.2025.sta' tag='IMG' type='' class='' aaname='' matching:src='fuzzy' fuzzylevel:src='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fb8bc9be-8347-4f04-a11c-33b307a1c7d2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f289c079-1672-47b8-aef9-4c556c036454" CvElementArea="881, 128, 63, 25" CvTextArea="908, 136, 28, 9" CvTextArgument="eSocial" CvType="Button" DesignTimeRectangle="909, 135, 27, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='eSocial' parentid='divContainerMenuTop' tag='DIV' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='eSocial' /&gt;" Guid="8ce4c8f1-c12f-4652-bb68-73766bc1ad23" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="21aa2eaff5223165f1bb07dc89208437.png" xmlns="">09eiqoz30xUOlEQOTFV2r5g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Tkfc5BWckEKh1PcLp5kxxA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.esocial.gov.br/logout.aspx" CVScreenId="09513982-d737-4837-a8df-ca574d203df9" CvTextArea="1313, 168, 23, 11" CvTextArgument="SAIR" CvType="Text" DesignTimeRectangle="1265, 164, 71, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='SAIR' parentid='header' tag='A' /&gt;" Guid="3762c23d-5037-448e-a0ed-ac1fa51b7600" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="09513982-d737-4837-a8df-ca574d203df9" CvTextArea="141, 187, 142, 45" CvTextArgument="eSocial" CvType="Text" DesignTimeRectangle="101, 186, 181, 44" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='hplMarca' tag='A' type='' class='hide-text marca' aaname='eSocial' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='eSocial' /&gt;" Guid="4da1bb6a-6932-439e-bef1-d4bdc25a9a9d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="756b34ab1c4a667e1315644fdcbcbc6a.png" xmlns="">0T7oDJdSG90ynFQ-b5fk9Tw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

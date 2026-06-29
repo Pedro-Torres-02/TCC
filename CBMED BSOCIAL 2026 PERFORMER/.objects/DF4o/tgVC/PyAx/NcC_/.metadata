@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sua sessão vai expirar …",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "NcC_cAM2okyVHJaEbLTT4g",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/NcC_cAM2okyVHJaEbLTT4g",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-12T01:16:01.7899953Z",
+  "Updated": "2025-12-12T01:16:01.7899953Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

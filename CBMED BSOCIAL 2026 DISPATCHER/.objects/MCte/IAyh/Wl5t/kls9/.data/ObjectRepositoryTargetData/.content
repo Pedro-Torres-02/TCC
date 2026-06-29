@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7LUQE8tp8EKDmSt74pHyvA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" DesignTimeRectangle="726, 536, 483, 40" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d73a6351-0a89-4ade-9b9a-1ba13d71b13d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3ad9475f-e70d-42d7-aebd-b1031e8ff590" CvTextArea="752, 634, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764858607163' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="1cf0fe36-5703-40c8-bdde-811fe3c65f9b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b4348172ccba6ee59f8f7c479566909.png" xmlns="">0MPxqUynL8katAFKvPbPPtw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

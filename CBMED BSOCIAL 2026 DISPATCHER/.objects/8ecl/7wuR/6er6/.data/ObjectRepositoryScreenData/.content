@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="wwMu9RTSFEG7w1ZO5eG03w" Reference="pzKt4uuwqE-ukmfVrji-Xg/6er6A2kLYEqV4z1y35YEPw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="281, 99, 1025, 407" ContentHash="2l_sOyqx7EOTiE9eE2gQmg" FilePath="Microsoft.WindowsNotepad_8wekyb3d8bbwe!App" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPPSURBVFhHrZTHUxRBGMW9WCL75xiqvBoQBMGcUQxIEBQVMCL+DxzAKr14MhVIUFAMBAGJG2d3ZxcUYfMuSeH8rO6Z7p2A24swVa+mqg/ze9978/WmTSmezVUNRZurGkDeG3G25kf9ANVGnKX11PtWiup9K3gkL/MPEN33/MY995LurNa5gBrnvO7spi2BKmtcd1YxHsW1sQjKRyPiNB7JK6iTl1Hn/YOCViv9QP7bCdyTlnBXWkRe8zg9y20eQ7VjHrcdc8h5M0rPsl+P4IY1jusTMWS9GqZn+14OEzDKR8MoGwmL06jzLuOh9w8eeH7jvluZ+q60hDuuRdS6yMQLKnget+xzysS2BAXfmFDgleNRVIzxqSm4dCSEkuGQ2IAJLBHwIgdTuH0Ot2wqnIDVqSvHY6uAwxR89XuQysgzPQTM4qZTqz1zMJvaCE72zOMuHSZTK+DioQCuDAXEBvRgFrcWrMStBxumpmBl6uKhIAVfHpzFpYFZsYFUPdOp0+iZgr9rwBQ+g4vfZsQGdHHb5mCpbdKt1FpkqWni4KJvv3Ch/5fYgL7nxLoMZNY0cfD5/mkU9k2LDWjXStuzKe5/9Tw4i4sDZOIZDj7fN43C3p841/tTbOB/e1Z+Mm3cKrhPAZ/t+YEzPVNiA6utFdtn01oNsr9b3zOLOwn+gdNfp3DqSxoG2FqxfSY/krHbdJVZ04gzX6dU+CROfvaLDRjjXq8BBTyJE5/9OP7JJzZgvD5JzynjNvXM4p7EyS8MrMCPdctiA6ae+S2Woudefc8ETOJmUx/r9uHoRxlHPnrFBkxrNWBeKwbmU+t6TsZNwd0ELOPwBy8OffCIDRj3mVwmxm7TVWZ1I52awrs8KOh0iw0Y416Pga3VjQq4y438TjcOvpfEBpS4xT2ztTLHrZm4y6OAOyXkvZeQ+84lNqAFs+tzrT0TMImbTZ33zkXhBzqcYgPmtdKA+VopYLJW7O9OTq0FK1MTcE6HE9ntDrEB8z4ra6Xf5+RameImYDXuAx0uDt7f5kBWm11sgIG116c57lXAmp751O0OZLcRuB1ZrXbsa7WJDaTbM1ur1XrOaWdTJ8F739qwp8UqNtAsTZuuT3PcqXtmcWvBu1useD6axkXk9/tB5PP5qGRZNsnr9XJ5PB4ut9vNJUkSlcvl4nI609iCF4+LkEgkqOLxOFUsFuOKRqNUkUiEKxwOc4VCIa5gMEgVCASoXtQXig1c35mB8u1bUKqqZNv6RL5Rtn0LKnZk4PauDLGBZ/mWkid5mWjK3TiR7z09aMHzQ5ZiI+8vgOYUr08dsXUAAAAASUVORK5CYII=" Reference="pzKt4uuwqE-ukmfVrji-Xg/6er6A2kLYEqV4z1y35YEPw" Selector="&lt;wnd app='notepad.exe' appid='Microsoft.WindowsNotepad_8wekyb3d8bbwe!App' title=' Sem título - Bloco de notas' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="9d94ecd2dfdc7887624cc5c54e40ede8.png" xmlns="">0Q73mvDk2l0el-zVijlkqSw</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

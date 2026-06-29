@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="a6SlcwxSvkmGenjhV2yyRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="5bdf91ef-ff94-4668-8160-b3cb3281f3df" CvElementArea="1090, 632, 17, 17" CvType="RadioButton" DesignTimeRectangle="1092, 634, 13, 13" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765182710650' tag='INPUT' type='radio' class='' aaname='Gerar em Excel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f1eca242-4e94-486b-90c3-7f9cae44ec41" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5bdf91ef-ff94-4668-8160-b3cb3281f3df" CvTextArea="1107, 634, 86, 12" CvTextArgument="Gerar em Excel" CvType="Text" DesignTimeRectangle="1108, 634, 87, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1765182710649' tag='LABEL' type='' class='Gnc_Control_Label' aaname='Gerar em Excel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gerar em Excel' /&gt;" Guid="7666a544-82d8-454a-b2da-7e982891718b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ae8b699a75ad12f3c356fc2d83d04702.png" xmlns="">0bOUxiRO1ZUKoCTsattkE9g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

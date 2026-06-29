@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sr2We9-v906cZ_b3HQQ__w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="8453e09a-0afc-491a-8e48-e4d2c35103fb" DesignTimeRectangle="184, 463, 306, 21" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl type='' parentid='02307889124' tag='P' class='MuiTypography-root MuiTypography-body1 css-1wms3qu' aaname='*' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='{0}' /&gt;&quot;, Str_CPF)]" Guid="2e0ac91b-efb3-4df0-a5e6-9692c96fbee4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8453e09a-0afc-491a-8e48-e4d2c35103fb" CvTextArea="169, 357, 163, 15" CvTextArgument="Lista de Trabalhadores" CvType="Text" DesignTimeRectangle="168, 354, 166, 24" FuzzySelectorArgument="&lt;webctrl tag='LEGEND' type='' class='css-16ewu2s' aaname='Lista de Trabalhadores' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Lista de Trabalhadores' /&gt;" Guid="17b9678c-389f-4c4d-9bf3-92f3810c8c9a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3c7f62ee799e65b6aa811edcffd0fac7.png" xmlns="">0OhRV0qpAHUmL_imyPff3Gg</imageRef>
+    </TargetAnchorable>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="Str_CPF" />
+    </scg:List>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

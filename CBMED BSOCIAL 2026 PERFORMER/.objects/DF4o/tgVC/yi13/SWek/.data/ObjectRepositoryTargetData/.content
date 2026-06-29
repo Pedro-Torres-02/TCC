@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C1vHIT1oGkuDQX8hOPMcTA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="d8454595-3274-4407-bf8f-21894d7a26bb" CvTextArea="518, 352, 70, 15" CvTextArgument="Matrícula" CvType="Text" DesignTimeRectangle="519, 549, 296, 24" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Matrícula' parentid='scrollable-auto-tabpanel-95204067191-0-0' tag='SPAN' /&gt;" Guid="9bd13bf1-b935-4002-8cc1-73dfe89eea5d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d27ca22a-f574-4bec-80da-c9ea50cb42ff" CvTextArea="190, 552, 65, 18" CvTextArgument="Situação" CvType="Text" DesignTimeRectangle="192, 549, 295, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='scrollable-auto-tabpanel-95204067191-0-0' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-fyswvn' aaname='Situação' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Situação' /&gt;" Guid="4838fd2c-a714-45b8-b42f-0523a22483d5" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="213d95fbee462c6b5ed6449c671683e3.png" xmlns="">00_b6Hp2sE0afqfJhI9e61A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

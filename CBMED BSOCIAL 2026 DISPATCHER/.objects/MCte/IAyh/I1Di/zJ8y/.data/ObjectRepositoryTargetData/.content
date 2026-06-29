@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7SgE1aKErkGP1GZqr0m-1Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="589d9c36-d280-410c-8279-b3de3ad0ac82" CvElementArea="1211, 722, 124, 33" CvTextArea="1243, 731, 60, 13" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="1218, 725, 110, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765267167789' tag='DIV' type='' class='' aaname='Cancelar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancelar' /&gt;" Guid="37ec2be9-b87b-4904-a085-f74403e94c9c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="589d9c36-d280-410c-8279-b3de3ad0ac82" CvElementArea="1211, 722, 124, 33" CvTextArea="1243, 731, 60, 13" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="1213, 724, 120, 30" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='db_1765267167788' tag='BUTTON' type='button' class='Gnc-Border-Style Gnc-Font Gnc-Button' aaname='Cancelar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Cancelar' /&gt;" Guid="7cc6cacf-5a19-4e5b-aaa2-a052b8b417a0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa84b9875f3dfe74618799d14fa26832.png" xmlns="">0r00a3xo-EUO4NTIYpQHkAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

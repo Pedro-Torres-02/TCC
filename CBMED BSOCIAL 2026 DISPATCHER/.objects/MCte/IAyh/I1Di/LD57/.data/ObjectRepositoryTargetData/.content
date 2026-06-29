@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="E7z6SMcCD0Kc47JP4RaLxw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="299fbb39-b212-4a5f-b91f-8b6f8255cabc" CvElementArea="735, 778, 19, 18" CvType="CheckBox" DesignTimeRectangle="737, 780, 15, 15" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='db_1765182465563' tag='LABEL' /&gt;" Guid="3146996e-669b-458b-9add-04218cb0a13f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="299fbb39-b212-4a5f-b91f-8b6f8255cabc" CvTextArea="755, 777, 436, 15" CvTextArgument="Li e estou ciente que possuo lotes não consultados e, por essa razão," CvType="Text" DesignTimeRectangle="755, 777, 436, 15" ElementType="Text" Guid="25fe6422-6412-4dad-9009-7345af433ddc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b32198f371beb51f6fb22831af50a092.png" xmlns="">0tWIqRtrkR0ewsKEPiXKT3A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

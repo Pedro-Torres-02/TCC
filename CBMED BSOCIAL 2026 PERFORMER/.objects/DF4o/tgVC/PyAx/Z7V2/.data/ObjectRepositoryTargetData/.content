@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xHW82tqaBk6j-Sm29QO1Jw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="3e2b1246-80e0-4b00-9e31-56f639717a55" CvElementArea="163, 420, 1058, 49" CvType="InputBox" DesignTimeRectangle="213, 428, 344, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' isleaf='1' tag='DIV' /&gt;" Guid="0807755c-b663-4689-b6b9-b90e13b84dae" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="3e2b1246-80e0-4b00-9e31-56f639717a55" CvElementArea="163, 420, 1058, 49" CvType="InputBox" DesignTimeRectangle="179, 435, 22, 22" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;svg' tag='svg' /&gt;" Guid="bb026552-a219-4d38-9742-c1f9ceece801" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1b03b4688b7718fcffbdbca582252933.png" xmlns="">0ZkOvZnm7Z06hEnVbz1wwyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

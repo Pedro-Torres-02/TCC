@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OzJt_-qAUUmb_UT4BqpGGg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst" CVScreenId="ab79f5eb-2e53-4548-8f8c-fde6e49daa63" CvTextArea="416, 428, 550, 14" CvTextArgument="Sua sessão vai expirar em breve! Deseja renovar O tempo de expiração de sua sessão?" CvType="Text" DesignTimeRectangle="417, 427, 548, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;p' isleaf='1' tag='P' /&gt;" Guid="cf522c66-0590-425b-b200-f07e0a872a28" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ab79f5eb-2e53-4548-8f8c-fde6e49daa63" CvTextArea="415, 347, 83, 22" CvTextArgument="Atenção!" CvType="Text" DesignTimeRectangle="393, 325, 596, 64" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id=':r0:' tag='H2' type='' class='MuiTypography-root MuiTypography-h6 MuiDialogTitle-root css-1dift4e' aaname='Atenção!' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Atenção!' /&gt;" Guid="44522849-2bcc-4c96-a55e-871589f29748" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf7eeac2622531c7af2219a7a86af062.png" xmlns="">0Ut34UERKREOPzZSAv1xrAQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

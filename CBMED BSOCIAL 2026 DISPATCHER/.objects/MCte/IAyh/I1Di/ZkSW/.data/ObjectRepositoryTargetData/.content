@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2N42ayRJS0WWLJcuwVgA2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="b1bdacfb-3bb1-4145-bf65-c50808c4c0fd" CvTextArea="21, 330, 195, 15" CvTextArgument="Relatório de Inconsistências por" CvType="Text" DesignTimeRectangle="21, 330, 195, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="e5dc01b3-51f6-4c31-8aa2-4b0617592ffd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b1bdacfb-3bb1-4145-bf65-c50808c4c0fd" CvTextArea="16, 96, 193, 32" CvTextArgument="JSESM0" CvType="Text" DesignTimeRectangle="18, 99, 189, 27" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="4b490278-857b-4779-a7ec-bb6754c4d992" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="fdd721b728927e20cdb39729c47276d0.png" xmlns="">0nN_SvMVn5UeKv8NNGAnylA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

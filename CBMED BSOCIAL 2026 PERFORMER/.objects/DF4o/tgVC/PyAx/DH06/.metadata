@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Trabalhador",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "DH06ZIIvXke1DK64r6Hg1Q",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/DH06ZIIvXke1DK64r6Hg1Q",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T12:48:55.2042664Z",
+  "Updated": "2025-12-11T12:48:55.2042664Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

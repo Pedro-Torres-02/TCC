@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JsE5NFEMnUS12sw4yf9eIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="ada14bcd-2e4f-4e1f-ad3f-59e3d607a240" CvElementArea="629, 467, 210, 24" CvType="InputBox" DesignTimeRectangle="633, 470, 201, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='db_1764746738777' tag='INPUT' /&gt;" Guid="488ea6ac-628d-4371-933b-d7bb63a62388" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ada14bcd-2e4f-4e1f-ad3f-59e3d607a240" CvTextArea="778, 495, 74, 11" CvTextArgument="Recuperar Senha" CvType="Text" DesignTimeRectangle="779, 496, 73, 10" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='Gnc-Login-LabelLembrar' aaname='Recuperar Senha' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Recuperar Senha' /&gt;" Guid="06476c52-2cb6-44dd-960b-bbc1bdb0d246" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="353c7a17dd08d4e76fe211b2b6c012af.png" xmlns="">0JuA0DmwZzUqHpEDLscs78w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

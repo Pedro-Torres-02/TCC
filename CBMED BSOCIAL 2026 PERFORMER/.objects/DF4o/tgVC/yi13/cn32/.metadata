@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Entrar com gov.br",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "cn32PFSkA0C4KUp-0wmJ0w",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/cn32PFSkA0C4KUp-0wmJ0w",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/yi13TFdyAUCAM-CVv4j0YA",
+  "Created": "2025-12-10T07:13:16.7061409Z",
+  "Updated": "2025-12-10T07:13:16.7061409Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

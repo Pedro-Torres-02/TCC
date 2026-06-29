@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Sua sessão no sistema f…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "1fbRSguDIECJdfl9qoRjgg",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/1fbRSguDIECJdfl9qoRjgg",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/yi13TFdyAUCAM-CVv4j0YA",
+  "Created": "2025-12-11T14:37:28.5222038Z",
+  "Updated": "2025-12-11T14:37:28.5222038Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

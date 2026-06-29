@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Gestão de Empregados(2)",
+  "Type": "Element",
+  "Id": "sZFV1xQnxEaZ0tfljxVF4g",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/sZFV1xQnxEaZ0tfljxVF4g",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2026-01-05T11:49:33.7815969Z",
+  "Updated": "2026-01-05T11:49:33.7815969Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Não foi encontrado empr…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Z7V2s39NZUykVJ2zAfdMtA",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/Z7V2s39NZUykVJ2zAfdMtA",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T12:55:17.9517231Z",
+  "Updated": "2025-12-11T12:55:17.9517231Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

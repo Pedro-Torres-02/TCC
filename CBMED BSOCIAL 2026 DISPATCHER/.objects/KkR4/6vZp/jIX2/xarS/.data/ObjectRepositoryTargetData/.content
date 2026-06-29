@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KzQUEvayu0SwJOagCiootw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="4b8935e2-d403-4890-8b28-75b4ae4faf0e" CvElementArea="629, 441, 209, 24" CvType="InputBox" DesignTimeRectangle="633, 444, 201, 19" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='db_*' tag='INPUT' idx='11' /&gt;" Guid="1ce7a568-2e07-4d9a-b864-189624bbafc4" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b8935e2-d403-4890-8b28-75b4ae4faf0e" CvElementArea="835, 443, 20, 20" CvType="Icon" DesignTimeRectangle="837, 446, 15, 15" FullSelectorArgument="&lt;webctrl id='db_1764856700633' tag='DIV' /&gt;" Guid="553a20f1-cb1c-4b1a-9600-e623dbf240da" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVDhPY9h56fX/Sbvu/7//4hvFmOHAtTf/J+6kkmFHb73Datjl2y/+d02Y8d/B2f2/hZUdmAbxQeLoauGGnbr7AcOwjJzi/wwMDFixjKw8WB7dILBh5+6jGgZyBbrm/JJqrIZiGHbx4Ue4YQHBkRgauifOBMsdPn0dzEeWR3chw8VHn8CGHT9/G0VhSHgshs0gMXQXgvTBDbsENay0qgmuAORVmGtABoBodO/DMChS4IZdhhqmpq4FVwDzGsgAdK+BDEYOQ1AsYxiGbPPydTsgkmiugAU6SB5dDMUwkA3ohqF7DRaOIJfDxKLjUzANA/kdpgA5zGAGglyAzRJQWGMYhh6boHCBKULG6GkOa2yCOOgpH5bOQC4CGYLubcx0hpRobzx4h6EBF4YFBYph5x8gDIMZWN/Sg6EZn4vghp25h5nRQRhUOoACFxTLIO8SVWocv/0eq2HkYIaD199SraQFAOag04CFbgOMAAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b2945a824ed1a3a9a4cd47c447670917.png" xmlns="">0qYMvQ6MehEKgnUFUL4S2gQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="D86gvr8VKUKzTohro9BYJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvElementArea="529, 406, 322, 28" CvType="InputBox" DesignTimeRectangle="530, 407, 322, 27" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="cacb0bb0-866e-4d95-9082-a5e4c8d19f7d" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvElementArea="835, 443, 20, 20" CvType="Icon" DesignTimeRectangle="837, 446, 15, 15" FullSelectorArgument="&lt;webctrl id='db_1764750738010' tag='DIV' /&gt;" Guid="85d08266-dbde-46b3-99e3-17baa6b7c853" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVDhPY3j64s3/A0cu/7//4hvFmOHZq7fUM+zF6/dYDbt8+8X/rgkz/js4u/+3sLID0yA+SBxdLdywl28/YBiWkVP8n4GBASuWkZUHy6MbBDbs9buPKIaBXIGuOb+kGquhGIa9efcJblhAcCSGhu6JM8Fyh09fB/OR5dFdyPD2PcSw4+dvoygMCY/FsBkkhu5CkD4kwz6DDSutaoIrAHkV5hqQASAa3fswDIoUhGEfIIapqWvBFcC8BjIA3Wsgg5HDEBTLGIYh27x83Q6IJJorYIEOkkcXQzEMZAO6Yeheg4UjyOUwsej4FEzDQH6HKUAOM5iBIBdgswQU1hiGoccmKFxgipAxeppDjU2oYSAOesqHpTOQi0CGoHsbM50hGXbjwTsMDbgwLChQDYOmM5gAyMD6lh4MzfhchGQYIjshY1DpAApcUCyDvEtUqYGcNynFGKUGJRgAwVDad+DxFPwAAAAASUVORK5CYII=" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="a15170483bea37642ac4d59a742666ee.png" xmlns="">08Rcg2hZFo021mI9x4sqgxw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

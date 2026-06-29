@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ppBexOuvpEi0b_dcFPB9vg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="cf79b696-80c0-47c3-9d43-ef7f88a82c65" CvElementArea="322, 410, 737, 35" CvType="InputBox" DesignTimeRectangle="322, 411, 737, 34" ElementType="DropDown" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='perfilAcesso' tag='SELECT' type='' class='form-control valid' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="7d0b3e1f-2724-42ec-aac4-d8ea5f425b1b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cf79b696-80c0-47c3-9d43-ef7f88a82c65" CvTextArea="321, 388, 135, 16" CvTextArgument="Selecione o seu perfil" CvType="Text" DesignTimeRectangle="322, 385, 134, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Selecione o seu perfil' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selecione o seu perfil' /&gt;" Guid="8233ce00-b3d3-4671-9861-5ab94fb03964" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8a39a753cc088290e07fa321ccace9d5.png" xmlns="">0Kyb4B5qtKU62efIZILyt0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

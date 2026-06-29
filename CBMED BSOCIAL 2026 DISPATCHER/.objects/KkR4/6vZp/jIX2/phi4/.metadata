@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Lembrar login(3)",
+  "Type": "Element",
+  "TaxonomyType": "Password",
+  "Id": "phi4aZsssUOMd9Ez6n_j0w",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/phi4aZsssUOMd9Ez6n_j0w",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T08:33:58.3378741Z",
+  "Updated": "2025-12-03T08:33:58.3378741Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

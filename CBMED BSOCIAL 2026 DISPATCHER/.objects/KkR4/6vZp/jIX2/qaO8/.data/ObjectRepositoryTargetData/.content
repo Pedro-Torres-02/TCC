@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2s5MIpv3ZEWFbJxoC4BJ1A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvElementArea="529, 406, 322, 28" CvType="InputBox" DesignTimeRectangle="530, 407, 322, 27" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="98466431-2f6b-415d-89be-30540c719ba7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1829d055-d378-4717-bbf7-0a34d5d0694d" CvTextArea="542, 321, 142, 30" CvTextArgument="CBMED" CvType="Text" DesignTimeRectangle="541, 321, 144, 30" ElementType="Text" Guid="2aeed5cf-3336-4191-89e5-16927f8d61f0" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="876b07fa1d6c75157ea24dd163b78860.png" xmlns="">0rv9kWL3EE0qZ-xEYAErp7w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

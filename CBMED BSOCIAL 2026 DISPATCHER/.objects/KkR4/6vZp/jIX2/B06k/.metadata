@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Recuperar Senha",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "B06kU7XaO0GX-JR_yaicnA",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/B06kU7XaO0GX-JR_yaicnA",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T07:26:56.0162148Z",
+  "Updated": "2025-12-03T07:26:56.0162148Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

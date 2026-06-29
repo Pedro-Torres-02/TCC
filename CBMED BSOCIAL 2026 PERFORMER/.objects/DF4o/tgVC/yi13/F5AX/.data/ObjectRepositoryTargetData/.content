@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Yw29LtwX_0qcXUdvPccLCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Inicial" CVScreenId="c9ecdbd7-ee9b-4cd7-936e-44bd451488cb" CvElementArea="282, 308, 19, 16" CvTextArea="92, 307, 185, 18" CvTextArgument="Empregador/Contribuinte" CvType="ArrowButton" DesignTimeRectangle="78, 298, 249, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='menuEmpregador' tag='A' /&gt;" Guid="8e0dcce4-f5c5-4735-b924-138abe49f306" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c9ecdbd7-ee9b-4cd7-936e-44bd451488cb" CvElementArea="431, 308, 19, 17" CvTextArea="343, 307, 83, 18" CvTextArgument="Empregado" CvType="ArrowButton" DesignTimeRectangle="327, 298, 174, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='menuEmpregado' tag='A' type='' class='dropdown-toggle hidden-sm hidden-xs geral' aaname='Empregado' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Empregado' /&gt;" Guid="78d6a8c5-eea6-4b0e-9b99-316df901fe0f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b3922fd39c81a2cd283d244a437539e3.png" xmlns="">0M2OybzQhVUianqluy5lnHA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

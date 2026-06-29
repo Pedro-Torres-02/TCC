@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome eSocial",
+  "Type": "App",
+  "Id": "DF4oMs7eEEysOacWe9h9HQ",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/DF4oMs7eEEysOacWe9h9HQ",
+  "Created": "2025-12-10T07:11:51.8392782Z",
+  "Updated": "2025-12-10T07:11:51.8392782Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

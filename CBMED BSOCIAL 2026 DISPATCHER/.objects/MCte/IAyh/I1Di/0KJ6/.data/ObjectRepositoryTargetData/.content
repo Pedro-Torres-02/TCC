@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="EG2idpJa30CsAsEJTfPZUQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="ccbcb18f-64cb-456f-889c-593f4e1d53b8" CvElementArea="13, 240, 218, 27" CvTextArea="19, 245, 70, 13" CvTextArgument="Relatórios" CvType="Button" DesignTimeRectangle="13, 240, 218, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='db_1765184392418' tag='DIV' /&gt;" Guid="ac5f82a3-e86a-4223-9911-2934e56831e6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ccbcb18f-64cb-456f-889c-593f4e1d53b8" CvTextArea="16, 96, 193, 32" CvTextArgument="JSESM0" CvType="Text" DesignTimeRectangle="18, 99, 189, 27" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="dd9d9d03-d4f1-4fe2-bc87-688ee2a26031" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6402023aeafaff8feb697a844cb46d8e.png" xmlns="">0Y3ek_eaobkyyiQnEuWC1VQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

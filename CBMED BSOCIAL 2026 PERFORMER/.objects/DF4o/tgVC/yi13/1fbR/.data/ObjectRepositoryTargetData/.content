@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9vsPkuMbN0ausN92bpf9JA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.esocial.gov.br/logout.aspx" CVScreenId="ec8f2510-e488-4b71-89c9-526be890223e" CvElementArea="313, 275, 757, 63" CvType="InputBox" DesignTimeRectangle="361, 284, 652, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='page-content' tag='SPAN' /&gt;" Guid="16a9d472-1118-4222-a67e-303e6376fd67" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ec8f2510-e488-4b71-89c9-526be890223e" CvElementArea="313, 275, 757, 63" CvType="InputBox" DesignTimeRectangle="315, 275, 752, 62" FuzzySelectorArgument="&lt;webctrl parentid='page-content' tag='DIV' type='' class='logout-sucesso' aaname='                      ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Sua sessão no sistema foi encerrada com sucesso. É necessário fechar todas as abas/janelas do navegador para acessar novamente' /&gt;" Guid="1f3b1dd2-fddc-4c80-940c-43aa3f191de9" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="173d97239e14ae42a3738f68c539a4e6.png" xmlns="">0znQuFxEDRUCfv44l-Z8atw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

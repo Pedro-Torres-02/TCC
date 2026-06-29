@@ -1,0 +1,14 @@
+﻿{
+  "Name": "DIV db_1764856700633",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "xarSnN1u50GZaymSOXDI1A",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/xarSnN1u50GZaymSOXDI1A",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-04T14:05:42.6486687Z",
+  "Updated": "2025-12-04T14:05:42.6486687Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

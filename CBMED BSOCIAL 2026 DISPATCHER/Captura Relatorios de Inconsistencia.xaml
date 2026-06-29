@@ -1,0 +1,398 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Captura_Relatorios_de_Inconsistencia" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_Str_CaminhoPastaPlanInconsistencias" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Captura_Relatorios_de_Inconsistencia_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Captura_Relatorios_de_Inconsistencia" sap:VirtualizedContainerService.HintSize="1359,4084" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Captura Relatorios de Inconsistencia" sap:VirtualizedContainerService.HintSize="590,4061" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="556,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Iniciando a captura de relatórios de inconsistências!&quot;]" />
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome (2) - Sesmo Web - WILSON" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="556,3803" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="16aa9393-f990-41bb-abcc-449ada66565d" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="554,3609" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'eSocial'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="f289c079-1672-47b8-aef9-4c556c036454" ContentHash="S4-bUitPkESxt95wzNR1Dw" CvElementArea="881, 128, 63, 25" CvType="Button" DesignTimeRectangle="887, 132, 19, 18" ElementType="Icon" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='GncControl/Gnc/ImgsGnc/ImgModulo/Esocial-over.png?vs=31.10.2025.sta' tag='IMG' type='' class='' aaname='' matching:src='fuzzy' fuzzylevel:src='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="fb8bc9be-8347-4f04-a11c-33b307a1c7d2" InformativeScreenshot="21aa2eaff5223165f1bb07dc89208437.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/aFGI5Br0jkOIkgkmTpG73g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="f289c079-1672-47b8-aef9-4c556c036454" CvElementArea="881, 128, 63, 25" CvTextArea="908, 136, 28, 9" CvTextArgument="eSocial" CvType="Button" DesignTimeRectangle="909, 135, 27, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='eSocial' parentid='divContainerMenuTop' tag='DIV' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='eSocial' /&gt;" Guid="8ce4c8f1-c12f-4652-bb68-73766bc1ad23" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NCheckState DisplayName="Check App State 'ATENÇÃO!'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="520,61" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Timeout="45" Version="V5">
+                <uix:NCheckState.IfExists>
+                  <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="450,451" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click - checkbox" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="299fbb39-b212-4a5f-b91f-8b6f8255cabc" ContentHash="E7z6SMcCD0Kc47JP4RaLxw" CvElementArea="735, 778, 19, 18" CvType="CheckBox" DesignTimeRectangle="737, 780, 15, 15" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='db_1765182465563' tag='LABEL' /&gt;" Guid="3146996e-669b-458b-9add-04218cb0a13f" InformativeScreenshot="b32198f371beb51f6fb22831af50a092.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/LD5700uln0--M3_5c9BFqw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="299fbb39-b212-4a5f-b91f-8b6f8255cabc" CvTextArea="755, 777, 436, 15" CvTextArgument="Li e estou ciente que possuo lotes não consultados e, por essa razão," CvType="Text" DesignTimeRectangle="755, 777, 436, 15" ElementType="Text" Guid="25fe6422-6412-4dad-9009-7345af433ddc" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Ok'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="ced1de90-86c8-4203-b769-589044aec5ed" ContentHash="PMcc2zNu0EueUxiHTjtcyQ" CvElementArea="1098, 825, 124, 33" CvTextArea="1148, 835, 20, 13" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="1104, 828, 110, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765182465568' tag='DIV' type='' class='' aaname='Ok' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ok' /&gt;" Guid="f04d9c47-0688-4b37-88c2-4ab55d1f1b84" InformativeScreenshot="10ee9f04e3eb691e84af769e913b7099.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/rFW16U1tgU-wPaU3EgCe7A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="ced1de90-86c8-4203-b769-589044aec5ed" CvElementArea="1098, 825, 124, 33" CvTextArea="1148, 835, 20, 13" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="1099, 827, 120, 30" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='db_1765182465567' tag='BUTTON' type='button' class='Gnc-Border-Style Gnc-Font Gnc-Button Gnc-Disabled' aaname='Ok' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ok' /&gt;" Guid="de4b38c9-8ea5-4513-9c55-f7301f8ba08a" SearchSteps="FuzzySelector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </uix:NCheckState.IfExists>
+                <uix:NCheckState.IfNotExists>
+                  <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </Sequence>
+                </uix:NCheckState.IfNotExists>
+                <uix:NCheckState.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="6366ab34-eba0-4332-b0fe-ead8e77e019e" ContentHash="gUQU42WiuU-onnp8sxQB5A" CvTextArea="722, 284, 84, 20" CvTextArgument="ATENÇÃO!" CvType="Text" DesignTimeRectangle="719, 279, 485, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='ATENÇÃO!' parentid='db_1765181218012' tag='DIV' /&gt;" Guid="7dbcc226-f1d0-414c-ba4f-05d7531598fc" InformativeScreenshot="10da303dd1303b853a463458779f4e9f.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/cXv9Mby2_EOS8pChhlQ2Uw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="724, 314, 495, 442" FuzzySelectorArgument="&lt;webctrl id='db_1765182465557' tag='DIV' type='' class='' aaname='                                                                 Quando a consulta não é realizada, os eventos não são sincronizados com o eSocial!                                       Caso a &amp;quot;Consulta&amp;quot; não seja realizada antes do vencimento do Certificado Digital utilizado             para a transmissão dos eventos, o processo não poderá mais ser realizado, ou seja, os             eventos NÃO serão sincronizados com o eSocial.                                       Para realizar a consulta dos lotes, basta acessar: &amp;quot;Módulo eSocial &amp;gt; Central Transmissão             &amp;gt; Filtro (em &amp;quot;Situação&amp;quot;, aplicar a opção &amp;quot;Unidades com lotes não consultados&amp;quot;) &amp;gt; Unidade             &amp;gt; Transmissão (localizar o lote aplicando o filtro do período e selecioná-lo) &amp;gt; &amp;quot;Consultar&amp;quot;.                                       Clique no link para ter acesso ao vídeo referente ao processo de &amp;quot;Consulta&amp;quot;.                                                             ' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='ATENÇÃO!&amp;#xA;&amp;#xA;&amp;#xA;Existem lotes que não foram consultados na central de transmissão!&amp;#xA;&amp;#xA;Quando a consulta não é realizada, os eventos não são sincronizados com o eSocial!&amp;#xA;&amp;#xA;Caso a &amp;quot;Consulta&amp;quot; não seja realizada antes do vencimento do Certificado Digital utilizado para a transmissão dos eventos, o processo não poderá mais ser realizado, ou seja, os eventos NÃO serão sincronizados com o eSocial.&amp;#xA;&amp;#xA;Para realizar a consulta dos lotes, basta acessar: &amp;quot;Módulo eSocial &amp;gt; Central Transmissão &amp;gt; Filtro (em &amp;quot;Situação&amp;quot;, aplicar a opção &amp;quot;Unidades com lotes não consultados&amp;quot;) &amp;gt; Unidade &amp;gt; Transmissão (localizar o lote aplicando o filtro do período e selecioná-lo) &amp;gt; &amp;quot;Consultar&amp;quot;.&amp;#xA;&amp;#xA;Clique no link para ter acesso ao vídeo referente ao processo de &amp;quot;Consulta&amp;quot;.&amp;#xA;&amp;#xA;Link do vídeo' /&gt;" Guid="65dc1e01-53eb-4105-a357-94c41ba4adde" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NCheckState.Target>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </uix:NCheckState>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Relatórios'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="ccbcb18f-64cb-456f-889c-593f4e1d53b8" ContentHash="EG2idpJa30CsAsEJTfPZUQ" CvElementArea="13, 240, 218, 27" CvTextArea="19, 245, 70, 13" CvTextArgument="Relatórios" CvType="Button" DesignTimeRectangle="13, 240, 218, 26" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='db_1765184392418' tag='DIV' /&gt;" Guid="ac5f82a3-e86a-4223-9911-2934e56831e6" InformativeScreenshot="6402023aeafaff8feb697a844cb46d8e.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/0KJ6QvJunE6QlACeOwFakw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="ccbcb18f-64cb-456f-889c-593f4e1d53b8" CvTextArea="16, 96, 193, 32" CvTextArgument="JSESM0" CvType="Text" DesignTimeRectangle="18, 99, 189, 27" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="dd9d9d03-d4f1-4fe2-bc87-688ee2a26031" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Relatório de Inconsistê…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="b1bdacfb-3bb1-4145-bf65-c50808c4c0fd" ContentHash="2N42ayRJS0WWLJcuwVgA2Q" CvTextArea="21, 330, 195, 15" CvTextArgument="Relatório de Inconsistências por" CvType="Text" DesignTimeRectangle="21, 330, 195, 15" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="e5dc01b3-51f6-4c31-8aa2-4b0617592ffd" InformativeScreenshot="fdd721b728927e20cdb39729c47276d0.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/ZkSWk12yRkyhB9G_7ipuxA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="b1bdacfb-3bb1-4145-bf65-c50808c4c0fd" CvTextArea="16, 96, 193, 32" CvTextArgument="JSESM0" CvType="Text" DesignTimeRectangle="18, 99, 189, 27" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='IMG' /&gt;" Guid="4b490278-857b-4779-a7ec-bb6754c4d992" SearchSteps="Selector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Data'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,317" sap2010:WorkflowViewState.IdRef="NClick_17" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://cbmed.sesmoweb.com.br/" CVScreenId="675b21a4-9d45-4433-89e6-23a425bcbb41" CvElementArea="651, 436, 127, 19" CvType="InputBox" DesignTimeRectangle="656, 439, 119, 13" DesignTimeScaleFactor="0.75" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Período de:' class='Gnc_Control_TextBox hasDatepicker' parentclass='Gnc_Control_TextBox_Container' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='INPUT' aaname='Período de:' class='Gnc_Control_TextBox hasDatepicker' parentclass='Gnc_Control_TextBox_Container' type='text' placeholder='__/__/____' /&gt;" Guid="c86efbc6-e569-4c75-99c6-e4542f376003" InformativeScreenshot="b8be562aaa2ffb8cb33345c854beeb80.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sesmo Web - WILSON' /&gt;" SearchSteps="Selector" Version="V3" />
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into - Data Início" sap:VirtualizedContainerService.HintSize="520,176" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="[Now.AddDays(-30).ToString(&quot;ddMMyyyy&quot;) + &quot;[k(Tab)]&quot;]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="10974753-c657-400a-9362-1df943db9e84">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into - Data Final" sap:VirtualizedContainerService.HintSize="520,176" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="[&quot;Data Final: &quot; + Now.ToString(&quot;ddMMyyyy&quot;) + &quot;[k(tab)]&quot;]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="10974753-c657-400a-9362-1df943db9e84">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Gerar em Excel'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_13" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="5bdf91ef-ff94-4668-8160-b3cb3281f3df" ContentHash="a6SlcwxSvkmGenjhV2yyRw" CvElementArea="1090, 632, 17, 17" CvType="RadioButton" DesignTimeRectangle="1092, 634, 13, 13" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765182710650' tag='INPUT' type='radio' class='' aaname='Gerar em Excel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f1eca242-4e94-486b-90c3-7f9cae44ec41" InformativeScreenshot="ae8b699a75ad12f3c356fc2d83d04702.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/f8OgYllLAkem-O9Ue6pKsg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5bdf91ef-ff94-4668-8160-b3cb3281f3df" CvTextArea="1107, 634, 86, 12" CvTextArgument="Gerar em Excel" CvType="Text" DesignTimeRectangle="1108, 634, 87, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1765182710649' tag='LABEL' type='' class='Gnc_Control_Label' aaname='Gerar em Excel' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gerar em Excel' /&gt;" Guid="7666a544-82d8-454a-b2da-7e982891718b" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Visualizar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_14" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="16e69799-548f-4c9a-9919-dac734a39a18" ContentHash="ZfFV3P3e7kWL8aFe8zt4Tg" CvElementArea="1086, 722, 124, 33" CvTextArea="1118, 731, 65, 13" CvTextArgument="Visualizar" CvType="Button" DesignTimeRectangle="1093, 725, 110, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765182710965' tag='DIV' type='' class='' aaname='Visualizar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Visualizar' /&gt;" Guid="b1f429e6-f8c6-4cea-9043-718e780e6831" InformativeScreenshot="83c28890bfef50abff0e41f59511661d.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/VsmxjqQ9xUm8ePQ8nbd5Ww" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="16e69799-548f-4c9a-9919-dac734a39a18" CvElementArea="1086, 722, 124, 33" CvTextArea="1118, 731, 65, 13" CvTextArgument="Visualizar" CvType="Button" DesignTimeRectangle="1088, 724, 120, 30" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='db_1765182710964' tag='BUTTON' type='button' class='Gnc-Border-Style Gnc-Font Gnc-Button' aaname='Visualizar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Visualizar' /&gt;" Guid="409bf289-f1db-4447-98f1-a11ed0c2163b" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="520,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Locais Anteriores'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="HardwareEvents" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Text="[string.Format(&quot;{0}[k(enter)]&quot;, In_Str_CaminhoPastaPlanInconsistencias)]" Version="V5">
+                <uix:NTypeInto.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="052aed0d-14eb-4adf-9b44-7c910c7d6c70" ContentHash="pLxX9QC2X0-Ur40Y3m21Pw" CvElementArea="142, 40, 308, 35" CvType="InputBox" DesignTimeRectangle="380, 41, 34, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='Carregando' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Faixa de endereços' /&gt;&lt;ctrl name='Faixa de endereços' role='tool bar' /&gt;&lt;ctrl name='Locais Anteriores' role='push button' /&gt;" Guid="4bfcd7b6-4069-42a8-9ce7-3af9945b1c0f" InformativeScreenshot="fce5016a1b420a6452e41641a8335d8d.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/gBC54iFJWEyTu5xEpWGwWQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="052aed0d-14eb-4adf-9b44-7c910c7d6c70" CvElementArea="142, 40, 308, 35" CvType="InputBox" DesignTimeRectangle="414, 41, 34, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd aaname='Carregando' cls='msctls_progress32' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd cls='ToolbarWindow32' title='Faixa de endereços' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='Faixa de endereços' role='tool bar' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Atualizar &amp;quot;Planilhas Inconsistencias&amp;quot; (F5)' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Atualizar &amp;quot;Planilhas Inconsistencias&amp;quot; (F5)' /&gt;" Guid="c107b913-cbbc-417b-9760-4f7a0e5f2634" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NTypeInto.Target>
+              </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sa&amp;lvar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="520,198" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="16aa9393-f990-41bb-abcc-449ada66565d" Version="V5">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="e72d4324-122f-4d04-9a03-8a21798c8a8e" ContentHash="DKfEBgXvSUmL8XtiDX35hQ" CvElementArea="747, 489, 89, 26" CvTextArea="774, 495, 33, 12" CvTextArgument="Salvar" CvType="Button" DesignTimeRectangle="747, 489, 88, 26" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1' title='Sa&amp;amp;lvar' /&gt;" Guid="c1b5ac23-2b61-4372-8598-f8e6bc0a8bbf" InformativeScreenshot="b5be96b0fb28e640b49094d3f2de95d1.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/NLHJPOMyR0qLtePUwyLksQ" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Salvar como' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="e72d4324-122f-4d04-9a03-8a21798c8a8e" CvElementArea="847, 489, 88, 26" CvTextArea="867, 495, 48, 12" CvTextArgument="Cancelar" CvType="Button" DesignTimeRectangle="847, 489, 88, 26" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='Cancelar' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='Cancelar' /&gt;" Guid="495bed49-abbe-4cb1-8c26-ba21829f25ca" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
+              <Delay Duration="00:00:10" sap:VirtualizedContainerService.HintSize="520,127" sap2010:WorkflowViewState.IdRef="Delay_3" />
+              <ui:ForEachFileX DisplayName="For Each file deletar planilha indesejada e trocar nomes" Folder="[In_Str_CaminhoPastaPlanInconsistencias]" sap:VirtualizedContainerService.HintSize="520,953" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+                <ui:ForEachFileX.Body>
+                  <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                    <ActivityAction.Argument1>
+                      <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                    </ActivityAction.Argument1>
+                    <ActivityAction.Argument2>
+                      <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                    </ActivityAction.Argument2>
+                    <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="486,652" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If Condition="[Not currentfile.Name.ToLower.Contains(&quot;inconsistências&quot;)]" sap:VirtualizedContainerService.HintSize="452,588" sap2010:WorkflowViewState.IdRef="If_1">
+                        <If.Then>
+                          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,172" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:DeleteFileX DisplayName="Delete File" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="DeleteFileX_1" Path="[currentfile.FullName]" />
+                          </Sequence>
+                        </If.Then>
+                        <If.Else>
+                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,282" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:RenameFileX FileResource="{x:Null}" OutputFileResource="{x:Null}" DisplayName="Rename File" FilePath="[CurrentFile.ToString]" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="RenameFileX_2" KeepExtension="True" NewName="[&quot;Inconsistencias 2220 e 2240 &quot; + date.now.ToString(&quot;dd/MM/yyyy&quot;).Replace(&quot;/&quot;,&quot;.&quot;)]" />
+                          </Sequence>
+                        </If.Else>
+                      </If>
+                    </Sequence>
+                  </ActivityAction>
+                </ui:ForEachFileX.Body>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:ForEachFileX>
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="520,170" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Planilhas indesejadas removidas e planilhas renomeadas com sucesso!!&quot;]" />
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="-TYKQEFpc0GPO-T_zagTmA" IconBase64="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" InformativeScreenshot="d018e7bd93ae84200733b259f4afd8cc.jpg" Reference="pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw" Selector="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" Url="https://cbmed.sesmoweb.com.br/" Version="V2">
+            <uix:TargetApp.Arguments>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.Arguments>
+            <uix:TargetApp.WorkingDirectory>
+              <InArgument x:TypeArguments="x:String" />
+            </uix:TargetApp.WorkingDirectory>
+          </uix:TargetApp>
+        </uix:NApplicationCard.TargetApp>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>

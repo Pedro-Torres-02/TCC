@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome eSocial",
+  "Type": "Screen",
+  "Id": "yi13TFdyAUCAM-CVv4j0YA",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/yi13TFdyAUCAM-CVv4j0YA",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/tgVCjnATFkqXa_gFdcwygg",
+  "Created": "2025-12-10T07:11:52.0579072Z",
+  "Updated": "2025-12-10T07:11:52.0579072Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

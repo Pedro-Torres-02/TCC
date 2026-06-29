@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mXJH48c6-0e7WZq4B8C7Vw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="59360945-4af9-4209-b6dd-a1b00d40d56f" CvTextArea="162, 378, 36, 14" CvTextArgument="Início" CvType="Text" DesignTimeRectangle="163, 378, 35, 17" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aria-label='Início' tag='A' /&gt;" Guid="65062fa5-ffcc-44dd-9bb7-b532b851f258" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="59360945-4af9-4209-b6dd-a1b00d40d56f" CvTextArea="217, 377, 149, 17" CvTextArgument="Gestão de Empregados" CvType="Text" DesignTimeRectangle="219, 375, 147, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='hAu6765_98' tag='P' type='' class='MuiTypography-root MuiTypography-body1 css-1rtk4bu' aaname='Gestão de Empregados' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gestão de Empregados' /&gt;" Guid="3ea6d745-a3ca-4ba2-ba85-5057bd255e62" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="31a323ed8b58dc3407204452567ac37f.png" xmlns="">0naABs-5BoE2sSxmPnJDweQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

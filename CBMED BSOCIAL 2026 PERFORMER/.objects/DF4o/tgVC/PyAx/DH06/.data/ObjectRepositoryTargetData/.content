@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GiGclH4Ke0KWvX7a6pkROw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst" CVScreenId="031ec7f8-3f27-40c1-81c2-4970999a9e6c" CvTextArea="319, 328, 90, 15" CvTextArgument="Trabalhador" CvType="Text" DesignTimeRectangle="295, 320, 138, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Trabalhador' tag='BUTTON' /&gt;" Guid="ebb00016-f1c6-49a9-abcf-b4a7e784b513" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="031ec7f8-3f27-40c1-81c2-4970999a9e6c" CvTextArea="180, 328, 90, 18" CvTextArgument="Empregador" CvType="Text" DesignTimeRectangle="156, 320, 139, 34" ElementType="Button" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='szh-menu-button' aaname='Empregador' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Empregador' /&gt;" Guid="1c7d0a50-2047-4b5e-a5bd-f7286d41fef6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e564a4a051399028b6d615e025ae0306.png" xmlns="">0rI4hrTX_VU2OkR0Huwls-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

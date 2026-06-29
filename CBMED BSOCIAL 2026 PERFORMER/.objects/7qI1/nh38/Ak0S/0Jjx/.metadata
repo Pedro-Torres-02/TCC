@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Importação feita com su…",
+  "Type": "Element",
+  "Id": "0JjxNx3dWEK7GormLVyw8g",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/0JjxNx3dWEK7GormLVyw8g",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/Ak0SGuhD80efOZRGJqCUEw",
+  "Created": "2026-01-05T07:34:45.8175859Z",
+  "Updated": "2026-01-05T07:34:45.8175859Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

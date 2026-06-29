@@ -1,0 +1,385 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Verificar_Tempo_Logado_eSocial" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Verificar_Tempo_Logado_eSocial_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>Studio.Generated.TypedDataTable1</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Verificar_Tempo_Logado_eSocial" sap:VirtualizedContainerService.HintSize="1359,4337" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NCheckState DisplayName="Check App State 'Informe o CNPJ represen…'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="560,4314" sap2010:WorkflowViewState.IdRef="NCheckState_2" Timeout="2" Version="V5">
+      <uix:NCheckState.IfExists>
+        <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="558,94" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </uix:NCheckState.IfExists>
+      <uix:NCheckState.IfNotExists>
+        <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="558,3935" sap2010:WorkflowViewState.IdRef="Sequence_14">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="524,179" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Iniciando a verificação de tempo logado.&quot;]" />
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome eSocial(3)" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,3692" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="dae5dfcd-4fa9-4e1b-b35e-845038d4cef8" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="522,3494" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="Str_TempoLogado" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,1348" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <TryCatch.Try>
+                      <Sequence DisplayName="Tentar" sap:VirtualizedContainerService.HintSize="486,202" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text - Tempo Logado" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,138" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="dae5dfcd-4fa9-4e1b-b35e-845038d4cef8" TextString="[Str_TempoLogado]" Timeout="2" Version="V4">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="esocial.gov.br/portal/Home/Inicial" CVScreenId="7d907126-a99c-4d27-8444-318eb917f47a" DesignTimeRectangle="1225, 151, 44, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='header' tag='DIV' type='' class='tempo-sessao countdown' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="8f9f47f6-7503-4832-aa89-c44fe218b980" InformativeScreenshot="d948804fd451a83a643bf1833fc62105.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="7d907126-a99c-4d27-8444-318eb917f47a" CvTextArea="707, 157, 106, 12" CvTextArgument="Titular do Certificado" CvType="Text" DesignTimeRectangle="709, 157, 455, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='titular-certificado' aaname='Titular do Certificado' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Titular do Certificado' /&gt;" Guid="9a2aad0f-e8cd-4cd4-8bcc-36f200b39b25" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                      </Sequence>
+                    </TryCatch.Try>
+                    <TryCatch.Catches>
+                      <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                        <ActivityAction x:TypeArguments="s:Exception">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="486,876" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="452,812" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                              <TryCatch.Try>
+                                <Sequence DisplayName="Tentar" sap:VirtualizedContainerService.HintSize="450,198" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NGetText DisplayName="Get Text '1237'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,138" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="dae5dfcd-4fa9-4e1b-b35e-845038d4cef8" TextString="[Str_TempoLogado]" Timeout="5" Version="V5">
+                                    <uix:NGetText.Target>
+                                      <uix:TargetAnchorable BrowserURL="frontend.esocial.gov.br/sst" CVScreenId="6f1f9371-566d-4cd5-866e-a911b6e5facb" ContentHash="MWGaHTlmAkmZfROvxoxT7A" CvType="AnyWordGroup" DesignTimeRectangle="1143, 181, 36, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='SPAN' aaname='*:*' /&gt;" Guid="a5465179-ddce-4ad1-8d03-f5af7960a505" InformativeScreenshot="5cb415538724e58ae6886c4338337708.png" Reference="10AlEvUyX0iO0ablpwLrpg/VqP0fkR5M0KsZyubsnLtyw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target CVScreenId="6f1f9371-566d-4cd5-866e-a911b6e5facb" CvElementArea="1120, 177, 22, 26" CvType="Icon" DesignTimeRectangle="1119, 179, 24, 24" ElementType="Icon" FullSelectorArgument="&lt;webctrl tag='svg' /&gt;" Guid="0a368ce3-c1a9-4d9f-9e10-3b7930a29aab" ImageBase64="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" SearchSteps="Selector, CV" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NGetText.Target>
+                                  </uix:NGetText>
+                                </Sequence>
+                              </TryCatch.Try>
+                              <TryCatch.Catches>
+                                <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+                                  <ActivityAction x:TypeArguments="s:Exception">
+                                    <ActivityAction.Argument>
+                                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                                    </ActivityAction.Argument>
+                                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,357" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;Erro ao capturar tempo logado, reiniciando fluxo do eSocial.&quot;]">
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:LogMessage>
+                                      <Throw Exception="[Exception]" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="Throw_1" />
+                                    </Sequence>
+                                  </ActivityAction>
+                                </Catch>
+                              </TryCatch.Catches>
+                              <TryCatch.Finally>
+                                <Sequence DisplayName="Por fim" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                </Sequence>
+                              </TryCatch.Finally>
+                            </TryCatch>
+                          </Sequence>
+                        </ActivityAction>
+                      </Catch>
+                    </TryCatch.Catches>
+                    <TryCatch.Finally>
+                      <Sequence DisplayName="Por fim" sap:VirtualizedContainerService.HintSize="486,94" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </TryCatch.Finally>
+                  </TryCatch>
+                  <Assign DisplayName="Assign - tempo apenas minutos" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="Assign_1">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[Str_TempoLogado]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String">[Str_TempoLogado.Substring(0, 2)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="488,179" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Tempo logado capturado.&quot;]" />
+                  <ui:IfElseIfV2 Condition="[CInt(Str_TempoLogado) &lt; 7]" DisplayName="Else If" sap:VirtualizedContainerService.HintSize="488,1724" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                    <ui:IfElseIfV2.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,234" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Ainda há tempo suficiente, seguindo para a execução.&quot;]" />
+                      </Sequence>
+                    </ui:IfElseIfV2.Else>
+                    <ui:IfElseIfV2.ElseIfs>
+                      <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True" />
+                    </ui:IfElseIfV2.ElseIfs>
+                    <ui:IfElseIfV2.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,1304" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,179" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;O tempo de sessão esta se encerrando, reiniciando o timer.&quot;]" />
+                        <Delay Duration="00:00:30" sap:VirtualizedContainerService.HintSize="452,127" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                        <uix:NCheckState DisplayName="Check App State 'Sua sessão vai expirar …'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,764" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="dae5dfcd-4fa9-4e1b-b35e-845038d4cef8" Timeout="300" Version="V4">
+                          <uix:NCheckState.IfExists>
+                            <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="450,372" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Sim'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,308" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="dae5dfcd-4fa9-4e1b-b35e-845038d4cef8" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="frontend.esocial.gov.br/reclamatoria/contribuicoes/registrar/0" CVScreenId="47a42444-a6f8-44f4-b396-e3a500b5aca8" ContentHash="21a6lO-HZUyxRZWfPpx7og" CvTextArea="1092, 652, 27, 13" CvTextArgument="SIM" CvType="Text" DesignTimeRectangle="1074, 642, 64, 36" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Sim' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ciwzs9' check:innerText='SIM' /&gt;" Guid="011fdd88-f7ce-41af-90c6-b2de48b0a509" InformativeScreenshot="7dab5698aea738d53ac4442f3cddc76e.png" Reference="Jzs-hw9T3kOJoF12AI0h3w/rLs4QAonPU-yT10jfPtxUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
+                                    <uix:TargetAnchorable.Anchors>
+                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                        <uix:Target CVScreenId="47a42444-a6f8-44f4-b396-e3a500b5aca8" CvTextArea="1018, 649, 31, 16" CvTextArgument="NÃO" CvType="Text" DesignTimeRectangle="1002, 642, 64, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Não' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorSecondary MuiButton-root MuiButton-text MuiButton-textSecondary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorSecondary css-mom1n3' check:innerText='NÃO' /&gt;" Guid="678947f5-e293-44db-96e1-b89032ef793c" SearchSteps="FuzzySelector, CV" />
+                                      </scg:List>
+                                    </uix:TargetAnchorable.Anchors>
+                                  </uix:TargetAnchorable>
+                                </uix:NClick.Target>
+                                <uix:NClick.VerifyOptions>
+                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                    <uix:VerifyExecutionOptions.Retry>
+                                      <InArgument x:TypeArguments="x:Boolean" />
+                                    </uix:VerifyExecutionOptions.Retry>
+                                    <uix:VerifyExecutionOptions.Timeout>
+                                      <InArgument x:TypeArguments="x:Double" />
+                                    </uix:VerifyExecutionOptions.Timeout>
+                                  </uix:VerifyExecutionOptions>
+                                </uix:NClick.VerifyOptions>
+                              </uix:NClick>
+                            </Sequence>
+                          </uix:NCheckState.IfExists>
+                          <uix:NCheckState.IfNotExists>
+                            <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </uix:NCheckState.IfNotExists>
+                          <uix:NCheckState.Target>
+                            <uix:TargetAnchorable BrowserURL="frontend.esocial.gov.br/reclamatoria/contribuicoes/registrar/0" CVScreenId="da25cc7b-ec9f-46de-b641-cc2965ceb54d" ContentHash="Gkqn4EJLpECDVI8oUVlMMA" CvTextArea="573, 582, 549, 14" CvTextArgument="Sua sessão vai expirar em breve! Deseja renovar o tempo de expiração de sua sessão?" CvType="Text" DesignTimeRectangle="574, 581, 548, 20" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='P' class='MuiTypography-root MuiTypography-body2 css-68o8xu' aaname='Sua sessão vai expirar em breve! Deseja renovar o tempo de expiração de sua sessão?' check:innerText='Sua sessão vai expirar em breve! Deseja renovar o tempo de expiração de sua sessão?' /&gt;" Guid="13917203-8c1a-4375-8ab1-7b46b8375906" InformativeScreenshot="cc8557c4806b1f896477948a965b3147.png" Reference="Jzs-hw9T3kOJoF12AI0h3w/Sao9YCq3QEi8Wpv3kQG1cg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="da25cc7b-ec9f-46de-b641-cc2965ceb54d" CvTextArea="1092, 652, 27, 13" CvTextArgument="SIM" CvType="Text" DesignTimeRectangle="1074, 642, 64, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Sim' tag='BUTTON' type='button' class='MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1ciwzs9' check:innerText='SIM' /&gt;" Guid="d4d369ba-b6d3-4318-b947-4e820cd54b03" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NCheckState.Target>
+                        </uix:NCheckState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,170" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Timer de sessão reiniciado, seguindo execução.&quot;]" />
+                      </Sequence>
+                    </ui:IfElseIfV2.Then>
+                  </ui:IfElseIfV2>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.OCREngine>
+              <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                <ActivityFunc.Argument>
+                  <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                </ActivityFunc.Argument>
+              </ActivityFunc>
+            </uix:NApplicationCard.OCREngine>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1696, 1026" BrowserType="Chrome" ContentHash="RB1PT9ytEU-9SkEHU0D9mw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM0SURBVDhPbZNbTFJhAMe/2KKtsgvkS2UPPbQeu6yrZmmiGa112+qph94rbZVDSZat8oIamZxQo5aVKVrelqu00EQzwRuiodgBhAMcJKpT6/Hfh7C5Vg//l7P9fv/v+59zCIBF/4tKFR/XoF3dtle5+TfJ2S0QxR6BKBMFkp8kkIJ9ArmZIpDbqaX/FUivXIlr0K9v8rYsxemirUgoSEPCTRk2FGZgQ3Em1qvlEBWlghSn1v4jICrNSlFZd8uF59cRfLEM3SYVepyv0evqQp/biE/uXvSwRqwqzwRRH/xbQGizqLTjLalxY7+uEVzDChjf58Hs6cGQ14RR3wBsfgsGPR+xWiMHKZctCJYrNPGisrfdRP8FRMPizL0SBAwr0NWpxJCnFyPcR1h9Zkz4R2CZHYSk4gjInZjghnptQrJWPSyu4bGYwltL2jFWlwC3IR7GdyqMevsx7huk8BCmAlaMeIchqTwKcje9ljzSrNluqVs2w79ahVf1iWh+nAS2XgrOEAdn4zqYTMWwclHYHhjDND8Jq3cMEi0VVByqJZsubmZ2XNiI0gdnUffsPOrrs/GyORcdb27hQz+D/ok3FB6msBUO3gY2OA2bzwaJ7lhUQC7t0omztqGkU4P3tlZ0WltgtHWgz94FM2vCmGcQdj9tDtjwhf8M15wDk75JSKqooDIiUOxhxDk7oB3Q05X7omtzA/TO0cGizRMUnoIrOAPPnAtTfgck1cdBmEwqyEtkxLk7cf/TI4z7B+bXHvdZYvA4bZ6ch51BB2bnnOBCHjgCLKQ1J2KC/CRGrNyNKnMtJgJm+qoig0XvPE2bZ3j7fHME9oZmEfjqB8u7IX1ABfcjgoJkRqzai2rLU9j5kdjaFKZ3Zim80ByBOQTDQTh5DlL9SZAqORXcOMAsKUjEk9FGeL5G2j7DE3LAF2LBh2cxF+YQ/sbjx/cQhB/f8FP4BVeYxxr9KSqInOBWik50OwVbHp6DzJCNNEMW0pouQdZ0GbKXV5HenIOMVgUOteYisy0Ph9uvIaNNCXE1/Q7mT1CYoiDqNIGo6e9ZliqQcpo7BwVSQZ9VyARSSaONhUlfiE5OI6/8A3vLslaYvxSuAAAAAElFTkSuQmCC" InformativeScreenshot="e8c3c29c0b8df4c83adcfab582c69eac.jpg" Reference="10AlEvUyX0iO0ablpwLrpg/chD8S-ERBUGIhfBaMdYv_Q" Selector="&lt;html app='chrome.exe' title='eSocial' /&gt;" Url="https://frontend.esocial.gov.br/reclamatoria/contribuicoes/registrar/0" Version="V2">
+                <uix:TargetApp.Arguments>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.Arguments>
+                <uix:TargetApp.WorkingDirectory>
+                  <InArgument x:TypeArguments="x:String" />
+                </uix:TargetApp.WorkingDirectory>
+              </uix:TargetApp>
+            </uix:NApplicationCard.TargetApp>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NApplicationCard>
+        </Sequence>
+      </uix:NCheckState.IfNotExists>
+      <uix:NCheckState.Target>
+        <uix:TargetAnchorable BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="5093d82d-65fc-4921-807c-bcb8ac5a71f5" ContentHash="0ggxtFK_W06594NEu5zrlA" CvTextArea="329, 495, 187, 16" CvTextArgument="Informe O CNPJ representado" CvType="Text" DesignTimeRectangle="329, 492, 186, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Informe o CNPJ representado' tag='LABEL' /&gt;" Guid="b1ca39d7-1885-4421-8267-11e6e76130d9" InformativeScreenshot="6f8a85ecec515c21029a300b7868b9c9.png" Reference="10AlEvUyX0iO0ablpwLrpg/mabDstdJKky8bHwqW_9pjw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+          <uix:TargetAnchorable.Anchors>
+            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+              <uix:Target CVScreenId="5093d82d-65fc-4921-807c-bcb8ac5a71f5" CvTextArea="328, 400, 136, 16" CvTextArgument="Selecione O seu perfil" CvType="Text" DesignTimeRectangle="329, 397, 134, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Selecione o seu perfil' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selecione o seu perfil' /&gt;" Guid="89593feb-a758-4e3c-835a-62d676d784b1" SearchSteps="FuzzySelector, CV" />
+            </scg:List>
+          </uix:TargetAnchorable.Anchors>
+        </uix:TargetAnchorable>
+      </uix:NCheckState.Target>
+    </uix:NCheckState>
+  </Sequence>
+</Activity>

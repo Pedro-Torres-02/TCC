@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="92hLM9XGL0mIQBUwID0aSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="65594b8b-efc8-4286-a65d-9900f49e5a35" CvElementArea="903, 505, 166, 37" CvTextArea="959, 517, 53, 13" CvTextArgument="Verificar" CvType="Button" DesignTimeRectangle="905, 506, 162, 34" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='btn-verificar-procuracao-cnpj' tag='INPUT' /&gt;" Guid="a8f7726e-0c01-4117-a645-b9638e65080f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="65594b8b-efc8-4286-a65d-9900f49e5a35" CvTextArea="329, 483, 187, 16" CvTextArgument="Informe o CNPJ representado" CvType="Text" DesignTimeRectangle="329, 480, 186, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Informe o CNPJ representado' tag='LABEL' type='' class='control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Informe o CNPJ representado' /&gt;" Guid="e9ab8a86-7995-4a8d-b28c-9f8899197cdb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ebd83c0dabcab4a5efdcaf3711cfa8ee.png" xmlns="">0SeAzI0QE10S5-5M_WIoX_Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

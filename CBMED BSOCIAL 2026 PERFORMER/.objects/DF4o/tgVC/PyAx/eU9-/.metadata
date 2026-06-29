@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Informe a seguir o CPF …",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "eU9-cNfS40SXY2GQSnRPDQ",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/eU9-cNfS40SXY2GQSnRPDQ",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T13:45:08.1167485Z",
+  "Updated": "2025-12-11T13:45:08.1167485Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

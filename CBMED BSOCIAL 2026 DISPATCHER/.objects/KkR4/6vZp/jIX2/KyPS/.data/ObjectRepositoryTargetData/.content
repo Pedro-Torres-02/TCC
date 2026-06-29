@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TpzjKJjSYkaW2VQnbL9uEQ" Reference="pzKt4uuwqE-ukmfVrji-Xg/KyPSF8M6g0yGzR0WZw5GSw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="60749062-d056-473f-a8bd-43354c2acedd" DesignTimeRectangle="530, 407, 322, 27" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' isleaf='0' parentclass='Gnc-Col' /&gt;" Guid="0ab09d50-c62a-459d-82a9-152640f052e1" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="60749062-d056-473f-a8bd-43354c2acedd" CvTextArea="546, 497, 61, 11" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="547, 472, 61, 10" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764752259022' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="57934ea1-ef77-4537-b85e-acbd2fc635ab" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="60749062-d056-473f-a8bd-43354c2acedd" CvElementArea="834, 470, 20, 20" CvType="Icon" DesignTimeRectangle="834, 442, 20, 20" FullSelectorArgument="&lt;webctrl id='db_1764752259003' tag='DIV' /&gt;" Guid="b9c5ff0d-2277-4daa-bab6-00e01417fbb8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFZSURBVDhPY3j64s3/A0cu/7//4hvFmOHZq7fUM+zF6/dYDbt8+8X/rgkz/js4u/+3sLID0yA+SBxdLdywl28/YBiWkVP8n4GBASuWkZUHy6MbBDbs9buPKIaBXIGuOb+kGquhGIa9efcJblhAcCSGhu6JM8Fyh09fB/OR5dFdyPD2PcSw4+dvoygMCY/FsBkkhu5CkD4kwz6DDSutaoIrAHkV5hqQASAa3fswDIoUhGEfIIapqWvBFcC8BjIA3Wsgg5HDEBTLGIYh27x83Q6IJJorYIEOkkcXQzEMZAO6Yeheg4UjyOUwsej4FEzDQH6HKUAOM5iBIBdgswQU1hiGoccmKFxgipAxeppDjU2oYSAOesqHpTOQi0CGoHsbM50hGXbjwTsMDbgwLChQDYOmM5gAyMD6lh4MzfhchGQYIjshY1DpAApcUCyDvEtUqYGcNynFGKUGJRgAwVDad+DxFPwAAAAASUVORK5CYII=" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="88bec7dcb1c15fd2cc113f44968cf755.png" xmlns="">0RCzO_bx12UmSkUaz6SUxMA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

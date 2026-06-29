@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="npB-qLlPqk6gmP6XeBeHGA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="2a85819a-b8b5-4a17-b43c-e165ad1f3133" CvTextArea="752, 660, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 660, 92, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Lembrar login' tag='LABEL' /&gt;" Guid="edecf911-9e6b-4d22-8d3b-84e3b8530892" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2a85819a-b8b5-4a17-b43c-e165ad1f3133" CvElementArea="881, 678, 174, 48" CvTextArea="946, 696, 44, 12" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="883, 680, 170, 45" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1764859841137' tag='DIV' type='' class='' aaname='Entrar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Entrar' /&gt;" Guid="b19404fb-e717-41bc-8946-f25a8813c8c2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="56cd5258b8583ba3cfe3f1ee47e97842.png" xmlns="">0CLrYIfQJPUOtbT2oCEUB0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Sesmo Web - WILSON",
+  "Type": "Screen",
+  "Id": "Ak0SGuhD80efOZRGJqCUEw",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/Ak0SGuhD80efOZRGJqCUEw",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/nh38fZYGCk60FhL1Iun2KA",
+  "Created": "2026-01-04T07:20:35.551997Z",
+  "Updated": "2026-01-04T07:20:35.551997Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

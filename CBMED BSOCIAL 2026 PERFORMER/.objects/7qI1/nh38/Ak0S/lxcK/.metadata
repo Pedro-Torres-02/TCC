@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Nome do Colaborador",
+  "Type": "Element",
+  "Id": "lxcKubCHeEqxpCJ61qd0eQ",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/lxcKubCHeEqxpCJ61qd0eQ",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/Ak0SGuhD80efOZRGJqCUEw",
+  "Created": "2026-01-05T06:40:39.450175Z",
+  "Updated": "2026-01-05T06:40:39.450175Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

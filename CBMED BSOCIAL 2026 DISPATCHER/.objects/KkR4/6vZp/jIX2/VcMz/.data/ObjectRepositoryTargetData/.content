@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7cLV6vnSuEOArunpRBi9rw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="79e51e8d-d13c-4f8a-a5d1-36fd6b665b14" CvElementArea="633, 511, 116, 32" CvTextArea="675, 522, 31, 9" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="634, 512, 113, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1764746738922' tag='DIV' type='' class='' aaname='Entrar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Entrar' /&gt;" Guid="5512eb4b-4615-43de-8abd-3615231eb31f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="79e51e8d-d13c-4f8a-a5d1-36fd6b665b14" CvTextArea="778, 495, 74, 11" CvTextArgument="Recuperar Senha" CvType="Text" DesignTimeRectangle="779, 496, 73, 10" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='Gnc-Login-LabelLembrar' aaname='Recuperar Senha' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Recuperar Senha' /&gt;" Guid="f9bd47ae-806b-46da-8922-caff7567d2a1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8be4cc1a6ddc5dd33f48d1c4982ae97d.png" xmlns="">0Qa1ejSf2nE-OVoeNCxAI-Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

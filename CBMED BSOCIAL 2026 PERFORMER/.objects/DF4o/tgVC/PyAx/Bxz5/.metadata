@@ -1,0 +1,13 @@
+﻿{
+  "Name": "CategoriaEmpregado - Ge…",
+  "Type": "Element",
+  "Id": "Bxz5QXZ-eUOdBhKrUzW4hQ",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/Bxz5QXZ-eUOdBhKrUzW4hQ",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T13:56:23.613551Z",
+  "Updated": "2025-12-11T13:56:23.613551Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

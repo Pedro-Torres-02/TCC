@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0ggxtFK_W06594NEu5zrlA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="5093d82d-65fc-4921-807c-bcb8ac5a71f5" CvTextArea="329, 495, 187, 16" CvTextArgument="Informe O CNPJ representado" CvType="Text" DesignTimeRectangle="329, 492, 186, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Informe o CNPJ representado' tag='LABEL' /&gt;" Guid="b1ca39d7-1885-4421-8267-11e6e76130d9" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="5093d82d-65fc-4921-807c-bcb8ac5a71f5" CvTextArea="328, 400, 136, 16" CvTextArgument="Selecione O seu perfil" CvType="Text" DesignTimeRectangle="329, 397, 134, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='control-label' aaname='Selecione o seu perfil' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Selecione o seu perfil' /&gt;" Guid="89593feb-a758-4e3c-835a-62d676d784b1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6f8a85ecec515c21029a300b7868b9c9.png" xmlns="">0iKcEVGn2pUK83wUNV2WT-w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3ucg1zrZ6U6o3rrQIN_p9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sso.acesso.gov.br/login" CVScreenId="d40ca262-5512-4250-9e36-bb5ae6ced16a" CvTextArea="864, 453, 195, 21" CvTextArgument="8 Seu certificado digital" CvType="Text" DesignTimeRectangle="858, 451, 200, 24" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl id='login-certificate' tag='BUTTON' /&gt;" Guid="f8f5aec7-b690-46d3-aa1e-26d8677e26eb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='gov.br - Acesse sua conta' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d40ca262-5512-4250-9e36-bb5ae6ced16a" CvTextArea="895, 411, 149, 19" CvTextArgument="Login com QR code" CvType="Text" DesignTimeRectangle="858, 406, 186, 25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;     &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Login com QR code &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;   &amp;#x9;&amp;#x9;' parentid='login-cpf' tag='A' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Login com QR code' /&gt;" Guid="e8dfb435-0867-4790-9332-9633f899929e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="89c1b5feab124abcfecfe97eb9cc0653.png" xmlns="">0tB5i5MbkG0aJZOS-psrSwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

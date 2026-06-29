@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QKTJXQKiHUClkD9o5XxYmA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="25d677a3-b377-4356-bf07-e51d8bcea4d2" CvType="AnyWordGroup" DesignTimeRectangle="529, 471, 100, 18" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='db_1764746738877' tag='IMG' /&gt;" Guid="34b46c34-2a24-453c-9457-8737570ad47c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="25d677a3-b377-4356-bf07-e51d8bcea4d2" CvTextArea="546, 497, 61, 11" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="547, 498, 61, 10" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764746738911' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="ec80a9e8-da64-493a-bd16-eaf0c30a8654" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5d349ae1768bd6845a25492b8ab46d7c.png" xmlns="">0_IZ3FB9VZUSgEg2Z8BPEyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,688 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:umam="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umame="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Enums;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:umamm="clr-namespace:UiPath.MicrosoftOffice365.Activities.Mail.Models;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:usau="clr-namespace:UiPath.Shared.Activities.Utils;assembly=UiPath.MicrosoftOffice365.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail.Models</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities.Mail</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.MicrosoftOffice365.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.MicrosoftOffice365.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1913,1441" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPastaPlanInconsistencias" />
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPlanFuncionariosPadrao" />
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPastaExecucao" />
+      <Variable x:TypeArguments="x:String" Name="Str_UsuarioSesmo" />
+      <Variable x:TypeArguments="x:String" Name="Str_SenhaSesmo" />
+      <Variable x:TypeArguments="x:Int32" Name="Int_TentativasLogin" />
+      <Variable x:TypeArguments="x:Boolean" Name="Bool_Login" />
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPlanImportacaoPadrao" />
+      <Variable x:TypeArguments="x:Int32" Name="Int_NumeroPlanilhasExecutar" />
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPlanResultImportSesmo2220Padrao" />
+      <Variable x:TypeArguments="x:String" Name="Str_CaminhoPlanResultImportSesmo2240Padrao" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Captura de valores " sap:VirtualizedContainerService.HintSize="513,892" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Capturando credenciais e demais valores padrões.&quot;]" />
+      <ui:MultipleAssign DisplayName="Valores padroes" sap:VirtualizedContainerService.HintSize="479,459" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+        <ui:MultipleAssign.AssignOperations>
+          <scg:List x:TypeArguments="ui:AssignOperation" Capacity="16">
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPastaPlanInconsistencias]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Planilhas Inconsistencias</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPlanFuncionariosPadrao]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Planilhas Padrão\Planilha Funcionarios.xlsx</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPlanImportacaoPadrao]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Planilhas Padrão\Importacao Matriculas.xlsx</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPastaExecucao]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Executar</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_18">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPlanResultImportSesmo2240Padrao]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Planilhas Padrão\Planilha Importados 2240.xlsx</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_17">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_CaminhoPlanResultImportSesmo2220Padrao]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">C:\Users\cbmed\OneDrive\Documentos\BSOCIAL\CBMED\Planilhas Padrão\Planilha Importados 2220.xlsx</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_SenhaSesmo]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">
+                  <Literal x:TypeArguments="x:String" Value="" />
+                </InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:String">[Str_UsuarioSesmo]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:String">WILSON</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Int32">[Int_TentativasLogin]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Int32">0</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Boolean">[Bool_Login]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Boolean">False</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+            <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_15">
+              <ui:AssignOperation.To>
+                <OutArgument x:TypeArguments="x:Int32">[Int_NumeroPlanilhasExecutar]</OutArgument>
+              </ui:AssignOperation.To>
+              <ui:AssignOperation.Value>
+                <InArgument x:TypeArguments="x:Int32">0</InArgument>
+              </ui:AssignOperation.Value>
+            </ui:AssignOperation>
+          </scg:List>
+        </ui:MultipleAssign.AssignOperations>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:MultipleAssign>
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[&quot;Dados padrões capturados com sucesso!&quot;]" />
+    </Sequence>
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Int_TentativasLogin &lt; 5 and Bool_Login = False]" DisplayName="Do While - Logar Sesmo" sap:VirtualizedContainerService.HintSize="513,57" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+      <ui:InterruptibleDoWhile.Body>
+        <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="486,650" sap2010:WorkflowViewState.IdRef="Sequence_7">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <Sequence DisplayName="Fechar Aplicacoes" sap:VirtualizedContainerService.HintSize="452,61" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[&quot;Fechando aplicativos.&quot;]" />
+            <TryCatch DisplayName="TryCatch Fechar Chrome" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,166.66666666666666" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Warn" Message="[&quot;Erro ao fechar chrome!&quot;]" />
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </TryCatch.Finally>
+            </TryCatch>
+            <TryCatch DisplayName="Try Catch Fechar Excel" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <TryCatch.Try>
+                <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="KillProcess_2" ProcessName="excel" />
+              </TryCatch.Try>
+              <TryCatch.Catches>
+                <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,166.66666666666666" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ActivityAction x:TypeArguments="s:Exception">
+                    <ActivityAction.Argument>
+                      <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                    </ActivityAction.Argument>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn" Message="[&quot;Erro ao fechar excel!&quot;]" />
+                  </ActivityAction>
+                </Catch>
+              </TryCatch.Catches>
+              <TryCatch.Finally>
+                <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </TryCatch.Finally>
+            </TryCatch>
+          </Sequence>
+          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login Sesmo - Invoke Workflow File (Login Sesmo.xaml)" sap:VirtualizedContainerService.HintSize="452,186" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Login Sesmo.xaml">
+            <ui:InvokeWorkflowFile.Arguments>
+              <InArgument x:TypeArguments="x:String" x:Key="In_Str_UsuarioSesmo">[Str_UsuarioSesmo]</InArgument>
+              <InArgument x:TypeArguments="x:String" x:Key="In_Str_SenhaSesmo">[Str_SenhaSesmo]</InArgument>
+            </ui:InvokeWorkflowFile.Arguments>
+          </ui:InvokeWorkflowFile>
+          <uix:NCheckState DisplayName="Check App State  - Login Correto?" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="452,339" sap2010:WorkflowViewState.IdRef="NCheckState_1" Timeout="5" Version="V5">
+            <uix:NCheckState.IfExists>
+              <Sequence DisplayName="Destino aparece" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Error" Message="[&quot;Falha ao logar no Sesmo!&quot;]" />
+                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,144" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                  <ui:MultipleAssign.AssignOperations>
+                    <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Int32">[Int_TentativasLogin]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Int32">[Int_TentativasLogin + 1]</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                    </scg:List>
+                  </ui:MultipleAssign.AssignOperations>
+                </ui:MultipleAssign>
+              </Sequence>
+            </uix:NCheckState.IfExists>
+            <uix:NCheckState.IfNotExists>
+              <Sequence DisplayName="Destino não aparece" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="479,179" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[&quot;Sucesso ao logar no Sesmo!&quot;]" />
+                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,144" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                  <ui:MultipleAssign.AssignOperations>
+                    <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_13">
+                        <ui:AssignOperation.To>
+                          <OutArgument x:TypeArguments="x:Boolean">[Bool_Login]</OutArgument>
+                        </ui:AssignOperation.To>
+                        <ui:AssignOperation.Value>
+                          <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                        </ui:AssignOperation.Value>
+                      </ui:AssignOperation>
+                    </scg:List>
+                  </ui:MultipleAssign.AssignOperations>
+                </ui:MultipleAssign>
+              </Sequence>
+            </uix:NCheckState.IfNotExists>
+            <uix:NCheckState.Target>
+              <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="2a85819a-b8b5-4a17-b43c-e165ad1f3133" ContentHash="npB-qLlPqk6gmP6XeBeHGA" CvTextArea="752, 660, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 660, 92, 15" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Lembrar login' tag='LABEL' /&gt;" Guid="edecf911-9e6b-4d22-8d3b-84e3b8530892" InformativeScreenshot="56cd5258b8583ba3cfe3f1ee47e97842.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/92p-RduXJ0SGTdIxJoCDUA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                <uix:TargetAnchorable.Anchors>
+                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                    <uix:Target CVScreenId="2a85819a-b8b5-4a17-b43c-e165ad1f3133" CvElementArea="881, 678, 174, 48" CvTextArea="946, 696, 44, 12" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="883, 680, 170, 45" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1764859841137' tag='DIV' type='' class='' aaname='Entrar' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Entrar' /&gt;" Guid="b19404fb-e717-41bc-8946-f25a8813c8c2" SearchSteps="FuzzySelector, CV" />
+                  </scg:List>
+                </uix:TargetAnchorable.Anchors>
+              </uix:TargetAnchorable>
+            </uix:NCheckState.Target>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </uix:NCheckState>
+        </Sequence>
+      </ui:InterruptibleDoWhile.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InterruptibleDoWhile>
+    <If Condition="[Bool_Login = True]" DisplayName="If - Login sucesso" sap:VirtualizedContainerService.HintSize="513,57" sap2010:WorkflowViewState.IdRef="If_1">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <If.Then>
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+        </Sequence>
+      </If.Then>
+      <If.Else>
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,927" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;Enviando email e finalizando o fluxo.&quot;]" />
+          <umam:SendMailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentList="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID0}" ReplyTo="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Existing" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;&amp;quot;Durante a execu&amp;#231;&amp;#227;o do rob&amp;#244; bSocial da CBMED, no dia &amp;quot; + date.now.tostring(&amp;quot;dd/MM/yyyy&amp;quot;) + &amp;quot; o mesmo encontrou um problema ao realizar o login no Sesmo ap&amp;#243;s 5 tentativas, favor acionar suporte!&amp;quot;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionId="05229fdb-0222-4ee3-821a-c7a8eed7e0e7" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="416,566" sap2010:WorkflowViewState.IdRef="SendMailConnections_1" Importance="Normal" InputType="HTML" SaveAsDraft="True" Subject="Erro ao fazer login no Sesmo no robô dispatcher bSocial CBMED, favor verificar!" To="[New String(){&quot;suporte@one4.com.br&quot;}]" UseConnectionService="True" UseSharedMailbox="False">
+            <umam:SendMailConnections.AttachmentsBackup>
+              <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                <usau:BackupSlot.BackupValues>
+                  <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                </usau:BackupSlot.BackupValues>
+              </usau:BackupSlot>
+            </umam:SendMailConnections.AttachmentsBackup>
+            <umam:SendMailConnections.InputTypeBackup>
+              <usau:BackupSlot x:TypeArguments="umame:BodyInputType" StoredValue="HTML">
+                <usau:BackupSlot.BackupValues>
+                  <scg:Dictionary x:TypeArguments="umame:BodyInputType, scg:List(x:Object)" />
+                </usau:BackupSlot.BackupValues>
+              </usau:BackupSlot>
+            </umam:SendMailConnections.InputTypeBackup>
+            <umam:SendMailConnections.MailboxArg>
+              <umamm:MailboxArgument SharedMailbox="{x:Null}" UseSharedMailbox="False">
+                <umamm:MailboxArgument.Backup>
+                  <usau:BackupSlot x:TypeArguments="umame:MailboxSelectionMode" x:Name="__ReferenceID0" StoredValue="NoMailbox">
+                    <usau:BackupSlot.BackupValues>
+                      <scg:Dictionary x:TypeArguments="umame:MailboxSelectionMode, scg:List(x:Object)" />
+                    </usau:BackupSlot.BackupValues>
+                  </usau:BackupSlot>
+                </umamm:MailboxArgument.Backup>
+              </umamm:MailboxArgument>
+            </umam:SendMailConnections.MailboxArg>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </umam:SendMailConnections>
+          <TerminateWorkflow DisplayName="Terminate Workflow" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="TerminateWorkflow_1" Reason="Erro ao acessar Sesmo" />
+        </Sequence>
+      </If.Else>
+    </If>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Captura Relatorios de Inconsistencia - Invoke Workflow File (Captura Relatorios de Inconsistencia.xaml)" sap:VirtualizedContainerService.HintSize="513,182" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Captura Relatorios de Inconsistencia.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPastaPlanInconsistencias">[Str_CaminhoPastaPlanInconsistencias]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Ajusta Planilha - Invoke Workflow File (Ajusta Planilha.xaml)" sap:VirtualizedContainerService.HintSize="513,182" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Ajusta Planilhas Inconsistencia.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPlanResultImportSesmo2240Padrao">[Str_CaminhoPlanResultImportSesmo2240Padrao]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPlanResultImportSesmo2220Padrao">[Str_CaminhoPlanResultImportSesmo2220Padrao]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPlanImportacaoPadrao">[Str_CaminhoPlanImportacaoPadrao]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPastaExecucao">[Str_CaminhoPastaExecucao]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPlanFuncionariosPadrao">[Str_CaminhoPlanFuncionariosPadrao]</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="In_Str_CaminhoPastaPlanInconsistencias">[Str_CaminhoPastaPlanInconsistencias]</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <Sequence DisplayName="Finalização" sap:VirtualizedContainerService.HintSize="513,48" sap2010:WorkflowViewState.IdRef="Sequence_19">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:ForEachFileX DisplayName="For Each File In Folder" Folder="[Str_CaminhoPastaExecucao]" sap:VirtualizedContainerService.HintSize="547,496" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+        <ui:ForEachFileX.Body>
+          <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+            <ActivityAction.Argument1>
+              <DelegateInArgument x:TypeArguments="si:FileInfo" Name="File" />
+            </ActivityAction.Argument1>
+            <ActivityAction.Argument2>
+              <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+            </ActivityAction.Argument2>
+            <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="513,200" sap2010:WorkflowViewState.IdRef="Sequence_14">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,140" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_16">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Int32">[Int_NumeroPlanilhasExecutar]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Int32">[Int_NumeroPlanilhasExecutar + 1]</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+              </ui:MultipleAssign>
+            </Sequence>
+          </ActivityAction>
+        </ui:ForEachFileX.Body>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </ui:ForEachFileX>
+      <If Condition="[Int_NumeroPlanilhasExecutar = 8]" sap:VirtualizedContainerService.HintSize="547,1141" sap2010:WorkflowViewState.IdRef="If_2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <If.Then>
+          <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,234" sap2010:WorkflowViewState.IdRef="Sequence_17">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Processo dispatcher finalizado com sucesso!&quot;]" />
+          </Sequence>
+        </If.Then>
+        <If.Else>
+          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,768" sap2010:WorkflowViewState.IdRef="Sequence_18">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Error" Message="[&quot;Processo dispatcher teve um erro durante a execução!&quot;]" />
+            <umam:SendMailConnections ArgumentAttachmentPaths="{x:Null}" AttachmentList="{x:Null}" AttachmentPaths="{x:Null}" Attachments="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" ConnectionAccountName="{x:Null}" ContinueOnError="{x:Null}" Mailbox="{x:Null}" MailboxBackup="{x:Reference __ReferenceID1}" ReplyTo="{x:Null}" TextBody="{x:Null}" AttachmentInputMode="Existing" AuthScopesInvalid="False" Body="[string.Format(&quot;&lt;P&gt;&lt;SPAN&gt;&amp;quot;Durante a execu&amp;#231;&amp;#227;o do rob&amp;#244; bSocial da CBMED, no dia &amp;quot; + date.now&lt;/SPAN&gt;&lt;SPAN&gt;.tostring(&amp;quot;dd/MM/yyyy&amp;quot;) &lt;/SPAN&gt;&lt;SPAN&gt; + &amp;quot; o rob&amp;#244; encontrou um defeito no seu processamento, favor acionar suporte!&amp;quot;&lt;/SPAN&gt;&lt;/P&gt;&quot;)]" ConnectionId="05229fdb-0222-4ee3-821a-c7a8eed7e0e7" DisplayName="Send Email" sap:VirtualizedContainerService.HintSize="416,525" sap2010:WorkflowViewState.IdRef="SendMailConnections_2" Importance="Normal" InputType="HTML" SaveAsDraft="True" Subject="Erro no processo de dispatcher robô bSocial CBMED" To="[New String(){&quot;suporte@one4.com.br&quot;}]" UseConnectionService="True" UseSharedMailbox="False">
+              <umam:SendMailConnections.AttachmentsBackup>
+                <usau:BackupSlot x:TypeArguments="umame:AttachmentInputMode" StoredValue="Existing">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="umame:AttachmentInputMode, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </umam:SendMailConnections.AttachmentsBackup>
+              <umam:SendMailConnections.InputTypeBackup>
+                <usau:BackupSlot x:TypeArguments="umame:BodyInputType" StoredValue="HTML">
+                  <usau:BackupSlot.BackupValues>
+                    <scg:Dictionary x:TypeArguments="umame:BodyInputType, scg:List(x:Object)" />
+                  </usau:BackupSlot.BackupValues>
+                </usau:BackupSlot>
+              </umam:SendMailConnections.InputTypeBackup>
+              <umam:SendMailConnections.MailboxArg>
+                <umamm:MailboxArgument SharedMailbox="{x:Null}" UseSharedMailbox="False">
+                  <umamm:MailboxArgument.Backup>
+                    <usau:BackupSlot x:TypeArguments="umame:MailboxSelectionMode" x:Name="__ReferenceID1" StoredValue="NoMailbox">
+                      <usau:BackupSlot.BackupValues>
+                        <scg:Dictionary x:TypeArguments="umame:MailboxSelectionMode, scg:List(x:Object)" />
+                      </usau:BackupSlot.BackupValues>
+                    </usau:BackupSlot>
+                  </umamm:MailboxArgument.Backup>
+                </umamm:MailboxArgument>
+              </umam:SendMailConnections.MailboxArg>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </umam:SendMailConnections>
+          </Sequence>
+        </If.Else>
+      </If>
+      <Sequence DisplayName="Fechar Aplicacoes" sap:VirtualizedContainerService.HintSize="547,48" sap2010:WorkflowViewState.IdRef="Sequence_13">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[&quot;Fechando aplicativos.&quot;]" />
+        <TryCatch DisplayName="TryCatch Fechar Chrome" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch.Try>
+            <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="KillProcess_3" ProcessName="chrome" />
+          </TryCatch.Try>
+          <TryCatch.Catches>
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,166.66666666666666" sap2010:WorkflowViewState.IdRef="Catch`1_3">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ActivityAction x:TypeArguments="s:Exception">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                </ActivityAction.Argument>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Warn" Message="[&quot;Erro ao fechar chrome!&quot;]" />
+              </ActivityAction>
+            </Catch>
+          </TryCatch.Catches>
+          <TryCatch.Finally>
+            <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_15">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Sequence>
+          </TryCatch.Finally>
+        </TryCatch>
+        <TryCatch DisplayName="Try Catch Fechar Excel" sap:VirtualizedContainerService.HintSize="416,52" sap2010:WorkflowViewState.IdRef="TryCatch_4">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <TryCatch.Try>
+            <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450,135" sap2010:WorkflowViewState.IdRef="KillProcess_4" ProcessName="excel" />
+          </TryCatch.Try>
+          <TryCatch.Catches>
+            <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="400,166.66666666666666" sap2010:WorkflowViewState.IdRef="Catch`1_4">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ActivityAction x:TypeArguments="s:Exception">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                </ActivityAction.Argument>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,143" sap2010:WorkflowViewState.IdRef="LogMessage_13" Level="Warn" Message="[&quot;Erro ao fechar excel!&quot;]" />
+              </ActivityAction>
+            </Catch>
+          </TryCatch.Catches>
+          <TryCatch.Finally>
+            <Sequence DisplayName="Finally" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_16">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </Sequence>
+          </TryCatch.Finally>
+        </TryCatch>
+      </Sequence>
+    </Sequence>
+  </Sequence>
+</Activity>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S2PCGg3tsEGrG6zpYEDQGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Inicial" CVScreenId="159b0e7a-c0ae-4b04-80ba-123450417097" CvTextArea="708, 254, 94, 12" CvTextArgument="Trocar Perfil/Módulo" CvType="Text" DesignTimeRectangle="709, 250, 92, 19" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl class='alterar-perfil' parentid='header' tag='A' /&gt;" Guid="6d243ea0-cb2e-422a-93d1-44d1b9984435" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="159b0e7a-c0ae-4b04-80ba-123450417097" CvTextArea="707, 209, 106, 12" CvTextArgument="Titular do Certificado" CvType="Text" DesignTimeRectangle="709, 209, 455, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='titular-certificado' aaname='Titular do Certificado' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Titular do Certificado' /&gt;" Guid="3bf208e8-60fa-46bf-a268-79f57ad511dc" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6cb4d3840d2266a652f6e75269a33504.png" xmlns="">0ihdG0v7f3kCYeKJ3AGst_A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

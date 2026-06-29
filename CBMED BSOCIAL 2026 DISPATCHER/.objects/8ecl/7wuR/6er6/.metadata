@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Sem título - Bloco de notas",
+  "Type": "Screen",
+  "Id": "6er6A2kLYEqV4z1y35YEPw",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/6er6A2kLYEqV4z1y35YEPw",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/7wuRpZRJWkWgNeog18CRcQ",
+  "Created": "2025-12-03T07:46:18.7108949Z",
+  "Updated": "2025-12-03T07:46:18.7108949Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

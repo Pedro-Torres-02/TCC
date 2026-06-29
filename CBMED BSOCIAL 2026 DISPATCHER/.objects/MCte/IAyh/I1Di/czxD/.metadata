@@ -1,0 +1,14 @@
+﻿{
+  "Name": "S2220(1)",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "czxDBamvq0WRajuIZdOZ8A",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/czxDBamvq0WRajuIZdOZ8A",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw",
+  "Created": "2025-12-08T09:39:09.7848081Z",
+  "Updated": "2025-12-08T09:39:09.7848081Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

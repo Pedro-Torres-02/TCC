@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Informe o CNPJ represen…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "nuyCokFhhkmA_MnYlhslTQ",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/nuyCokFhhkmA_MnYlhslTQ",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T12:46:47.9709427Z",
+  "Updated": "2025-12-11T12:46:47.9709427Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

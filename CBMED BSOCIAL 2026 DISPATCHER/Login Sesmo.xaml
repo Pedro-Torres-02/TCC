@@ -1,0 +1,273 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Captura_Planilha" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="In_Str_UsuarioSesmo" Type="InArgument(x:String)" />
+    <x:Property Name="In_Str_SenhaSesmo" Type="InArgument(x:String)" />
+  </x:Members>
+  <VisualBasic.Settings>
+    <x:Null />
+  </VisualBasic.Settings>
+  <sap2010:WorkflowViewState.IdRef>Captura_Planilha_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>UiPath.OCR.Activities</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Captura_Planilha" sap:VirtualizedContainerService.HintSize="1108,2521" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="524,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Iniciando o Login no Sesmo.&quot;]" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="[UiPath.UIAutomationNext.Enums.NAppCloseMode.Never]" DisplayName="Chrome SesmoWeb - LogIn" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="524,2323" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="adb357a4-1898-444c-a01b-57471c282616" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Fazer" sap:VirtualizedContainerService.HintSize="522,2129" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="Str_ValorCaptcha" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="488,127" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[Str_ValorCaptcha = &quot;&quot;]" DisplayName="Do While - Captcha ser capturado" sap:VirtualizedContainerService.HintSize="488,1122" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1" MaxIterations="3">
+              <ui:InterruptibleDoWhile.Body>
+                <Sequence DisplayName="Corpo" sap:VirtualizedContainerService.HintSize="486,991" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="452,927" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <TryCatch.Try>
+                      <Sequence DisplayName="Tentar" sap:VirtualizedContainerService.HintSize="450,448" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'Captcha'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,143" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="adb357a4-1898-444c-a01b-57471c282616" TextString="[Str_ValorCaptcha]" Version="V3">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="cbbb0716-4a14-4197-8470-ec80b96fc7b5" CvType="AnyWordGroup" DesignTimeRectangle="724, 594, 114, 19" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='IMG' parentclass='Gnc-ContainerAll clearfix' src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjx0ZXh0IHg9IjAiIHk9IjIwIiBzdHlsZT0iZm9udC1zaXplOjI1cHg7bGV0dGVyLXNwYWNpbmc6IDVweDtmb250LWZhbWlseTogY291cmllciIgZmlsbD0icmVkIj5YQUk4V1I8L3RleHQ+PC9zdmc+' /&gt;" Guid="f69539f7-7923-4a84-9c67-e34061c4608a" InformativeScreenshot="90a0b5b224c9e370f6dc22422605aa3a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="cbbb0716-4a14-4197-8470-ec80b96fc7b5" CvTextArea="752, 660, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764861217807' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="4c71d4f6-5d09-4f89-8dcd-16ebe00c204c" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Resultado Captcha" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="adb357a4-1898-444c-a01b-57471c282616" Text="[Str_ValorCaptcha.ToLower.Replace(&quot; &quot;,&quot;&quot;)]" Version="V5">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="54177ac7-abf4-4c8d-870f-0b7b36dec558" ContentHash="9X1GRLTl8U6ivz0_hTLSZg" CvElementArea="875, 588, 313, 36" CvType="InputBox" DesignTimeRectangle="876, 589, 311, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container form-control' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e013bd99-e155-4419-9531-499a20ea01a6" InformativeScreenshot="e499b3e3b5a23bbb1c0b7b618d49df19.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/tUTDUIOc4kuRwlfljCDHXw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                  <uix:Target CVScreenId="54177ac7-abf4-4c8d-870f-0b7b36dec558" CvTextArea="752, 634, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764858442421' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="2dc5a82c-8cbb-4d2d-b0dd-bb086ab74618" SearchSteps="FuzzySelector, CV" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NTypeInto.Target>
+                        </uix:NTypeInto>
+                      </Sequence>
+                    </TryCatch.Try>
+                    <TryCatch.Catches>
+                      <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+                        <ActivityAction x:TypeArguments="s:Exception">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Error" Message="[&quot;Erro Captcha&quot;]" />
+                          </Sequence>
+                        </ActivityAction>
+                      </Catch>
+                    </TryCatch.Catches>
+                    <TryCatch.Finally>
+                      <Sequence DisplayName="Finalmente" sap:VirtualizedContainerService.HintSize="450,90" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                      </Sequence>
+                    </TryCatch.Finally>
+                  </TryCatch>
+                </Sequence>
+              </ui:InterruptibleDoWhile.Body>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </ui:InterruptibleDoWhile>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Usuario" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="DebuggerApi" ScopeIdentifier="adb357a4-1898-444c-a01b-57471c282616" Text="[In_Str_UsuarioSesmo]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" ContentHash="K6WjIXmHA0mUozE7Lyg69w" DesignTimeRectangle="726, 483, 483, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="683b5a9f-f746-4dc6-acdb-1152ad2f8b39" InformativeScreenshot="3bbe77c89469f3b85da7cad224e9403c.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/Cr90Sb9ek0yQcu4UJpsz7w" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3ad9475f-e70d-42d7-aebd-b1031e8ff590" CvTextArea="752, 634, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764858607163' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="be989275-d21d-4a0b-98a2-eb287079da87" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into Senha" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="adb357a4-1898-444c-a01b-57471c282616" Text="[In_Str_SenhaSesmo]" Version="V5">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" ContentHash="7LUQE8tp8EKDmSt74pHyvA" DesignTimeRectangle="726, 536, 483, 40" ElementType="InputBoxPassword" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='Gnc_Control_TextBox_Container Gnc-Login-FormControl' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="d73a6351-0a89-4ade-9b9a-1ba13d71b13d" InformativeScreenshot="2b4348172ccba6ee59f8f7c479566909.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/kls9lrhh4E-I4yElLBfbgw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3ad9475f-e70d-42d7-aebd-b1031e8ff590" CvTextArea="752, 634, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764858607163' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="1cf0fe36-5703-40c8-bdde-811fe3c65f9b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Entrar'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,198" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="adb357a4-1898-444c-a01b-57471c282616" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="aecbaafa-a2f0-4f7c-8080-d6642344fa88" ContentHash="4onkBqsnGk2Wtro-LHTMqg" CvElementArea="881, 652, 173, 47" CvTextArea="946, 670, 44, 12" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="883, 654, 170, 45" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='DIV' type='' class='' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='Entrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Entrar' /&gt;" Guid="dc2ee6bd-ac01-4fce-a84a-4b2ade57c8f1" InformativeScreenshot="af1e268bb52ea2f9ef87bde904ad39a9.png" Reference="pzKt4uuwqE-ukmfVrji-Xg/1xZn_tX_5USASyTT4JEp0Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="aecbaafa-a2f0-4f7c-8080-d6642344fa88" CvTextArea="752, 634, 89, 16" CvTextArgument="Lembrar login" CvType="Text" DesignTimeRectangle="751, 634, 92, 15" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Lembrar login' parentid='db_1764858827280' tag='LABEL' type='' class='Gnc_Control_Label Gnc-Empty Gnc-Login-LabelLembrar' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Lembrar login' /&gt;" Guid="93871c3c-b16a-4316-ae4d-1a21169ca340" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+            </uix:NClick>
+            <Delay Duration="00:01:00" sap:VirtualizedContainerService.HintSize="452,118" sap2010:WorkflowViewState.IdRef="Delay_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="NXXXXagNqUaLmL13DfuL0w" IconBase64="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" InformativeScreenshot="d9e7599399fae68faa4662b82930860b.jpg" Reference="pzKt4uuwqE-ukmfVrji-Xg/Wl5tudz6bUKHB01g35swdA" Selector="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" Url="https://cbmed.sesmoweb.com.br/Account/LogIn?ReturnUrl=%2f" Version="V2">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

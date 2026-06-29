@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tTDPKe5zNUK2HMZb0DrkMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="login.esocial.gov.br/login.aspx" CVScreenId="a223e7f0-2717-4524-a092-a7b0c896bd54" CvElementArea="985, 402, 208, 51" CvTextArea="1026, 420, 126, 16" CvTextArgument="Entrar com gov.br" CvType="Button" DesignTimeRectangle="986, 403, 205, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="4ab3b45b-e548-4408-93c5-e0cf6cdc1d38" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a223e7f0-2717-4524-a092-a7b0c896bd54" CvTextArea="744, 376, 125, 15" CvTextArgument="Acesso GOV.BR" CvType="Text" DesignTimeRectangle="746, 377, 471, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H2' type='' class='titulo-caixa-login-GovBR fieldset-metade' aaname='Acesso GOV.BR' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Acesso GOV.BR' /&gt;" Guid="bf6a74f8-ee2a-4344-9018-cfd54ae4756b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e2158364baee07c4a2c8145f16bcfab7.png" xmlns="">0JLAXofrYsU2COdKd_1HN4w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

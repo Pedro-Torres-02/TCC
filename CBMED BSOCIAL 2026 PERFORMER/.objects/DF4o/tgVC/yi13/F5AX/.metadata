@@ -1,0 +1,14 @@
+﻿{
+  "Name": "EmpregadorContribuinte",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "F5AX2mvA_UOFSD2Nd5y4cA",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/F5AX2mvA_UOFSD2Nd5y4cA",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/yi13TFdyAUCAM-CVv4j0YA",
+  "Created": "2025-12-10T07:22:08.5975387Z",
+  "Updated": "2025-12-10T07:22:08.5975387Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

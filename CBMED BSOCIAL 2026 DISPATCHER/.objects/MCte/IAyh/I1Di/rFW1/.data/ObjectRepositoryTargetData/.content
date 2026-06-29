@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PMcc2zNu0EueUxiHTjtcyQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="ced1de90-86c8-4203-b769-589044aec5ed" CvElementArea="1098, 825, 124, 33" CvTextArea="1148, 835, 20, 13" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="1104, 828, 110, 28" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765182465568' tag='DIV' type='' class='' aaname='Ok' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ok' /&gt;" Guid="f04d9c47-0688-4b37-88c2-4ab55d1f1b84" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ced1de90-86c8-4203-b769-589044aec5ed" CvElementArea="1098, 825, 124, 33" CvTextArea="1148, 835, 20, 13" CvTextArgument="Ok" CvType="Button" DesignTimeRectangle="1099, 827, 120, 30" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='db_1765182465567' tag='BUTTON' type='button' class='Gnc-Border-Style Gnc-Font Gnc-Button Gnc-Disabled' aaname='Ok' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Ok' /&gt;" Guid="de4b38c9-8ea5-4513-9c55-f7301f8ba08a" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="10ee9f04e3eb691e84af769e913b7099.png" xmlns="">0iO6p_Rw4K0GcwISy-E0caA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome Sesmo Web - WILSON",
+  "Type": "App",
+  "Id": "7qI1KO5Yj06Z91PukUvcYA",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/7qI1KO5Yj06Z91PukUvcYA",
+  "Created": "2026-01-04T07:20:35.1846491Z",
+  "Updated": "2026-01-04T07:20:35.1846491Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

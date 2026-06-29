@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Lembrar login(1)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Id": "4FGtqJT5Eku1Nk5uHBlO8w",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/4FGtqJT5Eku1Nk5uHBlO8w",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/jIX2Qa0n9USOQUKy-mlxVA",
+  "Created": "2025-12-03T07:51:45.0571872Z",
+  "Updated": "2025-12-03T07:51:45.0571872Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

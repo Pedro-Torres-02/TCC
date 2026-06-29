@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Cancelar",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "zJ8yiFVBdEWcDnY87v7YMw",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/zJ8yiFVBdEWcDnY87v7YMw",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw",
+  "Created": "2025-12-09T08:00:04.1255325Z",
+  "Updated": "2025-12-09T08:00:04.1255325Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

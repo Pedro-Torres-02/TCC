@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8tfNlJPNg0q9RdaBqvlTSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" DesignTimeRectangle="192, 514, 295, 60" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='4' parentid='scrollable-auto-tabpanel-95204067191-0-0' tag='P' isleaf='1' /&gt;" Guid="73889444-736f-4635-96a0-9fbf8f32c9ac" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="d50ed12fdc62c5ae9faa6f4e4f6792b4.png" xmlns="">0n7Q-CtZ3lEaoGuRkLCQCdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="neNN3U1NakmpXCAyttzq-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="fe4f1c39-fd49-456d-ab02-f1bc5cc9a443" CvElementArea="328, 504, 547, 36" CvType="InputBox" DesignTimeRectangle="329, 506, 546, 34" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='procuradorCnpj' tag='INPUT' type='text' class='form-control col-md-4 cnpj_p required cnpj' aaname='' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0f70789c-8ee1-43b7-a742-056422430303" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fe4f1c39-fd49-456d-ab02-f1bc5cc9a443" CvTextArea="329, 483, 187, 16" CvTextArgument="Informe O CNPJ representado" CvType="Text" DesignTimeRectangle="329, 480, 186, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Informe o CNPJ representado' tag='LABEL' type='' class='control-label' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Informe o CNPJ representado' /&gt;" Guid="39164895-3970-47c4-ae04-de07134493d1" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="52c7c9e4154eb940b703782e67f164ce.png" xmlns="">0zWarHsQ5-ECElEXMls-gxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

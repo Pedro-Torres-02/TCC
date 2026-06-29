@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="fO7utNbs_EOBtZo_lvFQBw" Reference="10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="EKRxf0HrSkqeY_swAEn0Gw" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAM/SURBVDhPbZBbTFMHHMb/NrFLpjht5UXFhz0sPk4XNxW8tLYgYyFOl2xPe/B9Ts0YKXQ2YrxBATtGjwXsjHUiFCYXI5nCLIyCSMulNywtnLa0pz2n1KpH4+Nneknc7eF7/P2+//8jAGv+LzpdYUG3cdPgPu2ON1S9RyTNXpG0xSKdLRGpbr9IFxQiXVI20r/BTORVVQXd5m29sf738fWVnSiqU6HoghrbL5dhe305tukrILmiBNUrLf8RkM7wgaRptP/knXNI/r4Oo3YdxkJ/YDw8gomIDU8i4xhjbdjYXA7SH/6ngKqqCiSNQw+pI4KDph5w3Rtge1QLR3QMMzE75uNT8CacmI4+xiZDBahZ/U6wXmMolDQ9HCXzMsjA4ptfGsBbN2BkWIuZ6DjmuMdwxx3wJebgXJmGrOUL0NW84Lx+S9EBo35W2iFgrYHFzoZ7cHUWIWIthO1PHeZjk/DEp+FLzGCRd2MuNgtZayXo51IL3TBs/sTZuW5JuL8R97uK0XezBGyXHJy1AKGerbDb6+HmcrCfdyEgLMAdc0FmrAS1HLHQR9/vYHaf/BCN179F5+3v0NV1Gnf7ajD04CL+mmQw6XsAX2IWft6NoOAFmwzAG/dCZjqaE9CZz0zSU7vQMGzAI+8Aht39sHmHMOEfgYO1wxWdhj/hQoD3Yll4ivBqEAvxBcjajoJaMwLNXkZavRvGKTPm4xO5tbkpePKD5Zp9WBYWEU4uIboaxmIiCFn7lyCm3EJUW8xIaz7FtSc34ElMZdf2xJ152IMAv5CFQ8kgVlZD4FJRBHkW8o5jecHZEkaq3YM2hwU+3gF3du3czwHBhyXBn23OwLHUCvhnCbBCBPLrx0DXMoK6A4xUtw/tzt/gF+bya7uzP7OC/2/NGZhDMp1ESOAgNx8HtVVYiM4fYt6rK8at+R5En2XaniKaCiKeYiGkV7Ca5pB+LuDlixTEl8/xSnyNcFrAZvNXoLbMBRcVJsklBT7+9QTU1tNQWU9B1XsG6t4foL77I0r7qlE2oMGRgRqUD9bi83s/oWxQC2l7Zf6CywoN6VUi6RUiNSlFalaKdPWwSC0qkVrUIrWqRTLmw5S+i6kik9a3e8uyVoJEs0MAAAAASUVORK5CYII=" Reference="10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA" Selector="&lt;html app='chrome.exe' title='eSocial' /&gt;" Url="https://www.esocial.gov.br/portal/Home/Inicial?tipoEmpregador=EMPREGADOR_GERAL" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.Arguments>
+      <TargetApp.WorkingDirectory>
+        <p:InArgument x:TypeArguments="x:String" />
+      </TargetApp.WorkingDirectory>
+      <imageRef attrName="InformativeScreenshot" originalValue="6941ac380fbcfda4b8484deed7b9d1d3.jpg" xmlns="">0wUooBuZB7EGuqjLt3HtJLQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

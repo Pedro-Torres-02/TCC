@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tYB-Fpr-jE-P6ekElsJeaA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br/Account/LogIn" CVScreenId="aceed2bd-7dc2-461e-94e4-dd26c56b3644" CvElementArea="633, 485, 116, 32" CvTextArea="675, 496, 30, 9" CvTextArgument="Entrar" CvType="Button" DesignTimeRectangle="633, 485, 115, 32" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="8fe78612-404d-4f98-9717-96c92faea272" ScopeSelectorArgument="&lt;html app='chrome.exe' title='SesmoWeb - LogIn' /&gt;" SearchSteps="CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="aceed2bd-7dc2-461e-94e4-dd26c56b3644" CvTextArea="778, 469, 74, 11" CvTextArgument="Recuperar Senha" CvType="Text" DesignTimeRectangle="778, 469, 74, 11" ElementType="Text" Guid="46547e54-9769-4869-9fcd-dc39ddd91204" SearchSteps="CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f9b70d8f2bbf787fa5e62202e7e04c45.png" xmlns="">0rIfsICwbG0-TCdk2ffF0Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

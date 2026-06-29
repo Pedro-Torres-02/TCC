@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PM0IWoIxNEu97TO-ygfvOw" Reference="10AlEvUyX0iO0ablpwLrpg/-VoVSHnpnky7Yx5diq9VTQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="1c858bc8-4c4c-48a3-8702-1338d1d6761e" CvType="AnyWordGroup" DesignTimeRectangle="202, 185, 296, 20" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='painelAba-06758480160-0' tag='P' /&gt;" Guid="374d4af0-cf7d-42fe-a64e-c1971d3d0c44" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="1c858bc8-4c4c-48a3-8702-1338d1d6761e" CvTextArea="200, 163, 66, 20" CvTextArgument="Situação" CvType="Text" DesignTimeRectangle="202, 161, 296, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='painelAba-06758480160-0' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-fyswvn' aaname='Situação' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Situação' /&gt;" Guid="c3d2f63d-996a-4d3e-9080-9f1e83ba5066" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c4f58aa31d214ed35d8dbc5e0fbead4e.png" xmlns="">0Rdw28SP2k0KrWuI_6ghUPw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

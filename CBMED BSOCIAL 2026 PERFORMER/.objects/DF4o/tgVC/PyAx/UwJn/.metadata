@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Empregado - Geral, incl…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "UwJnsj1VL0GcnE2_MTtcBw",
+  "Reference": "10AlEvUyX0iO0ablpwLrpg/UwJnsj1VL0GcnE2_MTtcBw",
+  "ParentRef": "10AlEvUyX0iO0ablpwLrpg/PyAx_-7iJESKHth0n2RpeA",
+  "Created": "2025-12-11T19:35:39.9697437Z",
+  "Updated": "2025-12-11T19:35:39.9697437Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

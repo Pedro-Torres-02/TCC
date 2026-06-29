@@ -1,0 +1,14 @@
+﻿{
+  "Name": "S2210",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Kkx4YzUrzkirRYWSqM80Ww",
+  "Reference": "pzKt4uuwqE-ukmfVrji-Xg/Kkx4YzUrzkirRYWSqM80Ww",
+  "ParentRef": "pzKt4uuwqE-ukmfVrji-Xg/I1DisvMXe0q4_CSs-CPgcw",
+  "Created": "2025-12-08T09:38:22.5786391Z",
+  "Updated": "2025-12-08T09:38:22.5786391Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

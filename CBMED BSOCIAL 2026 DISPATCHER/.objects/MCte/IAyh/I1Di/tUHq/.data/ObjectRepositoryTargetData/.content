@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="WypmMINcAU6wvq48esqocA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cbmed.sesmoweb.com.br" CVScreenId="df916620-ec2a-4678-a8b1-4354a2a13a09" CvElementArea="915, 573, 170, 24" CvType="InputBox" DesignTimeRectangle="921, 576, 160, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='db_1765185299394' tag='INPUT' type='text' class='Gnc_Control_TextBox hasDatepicker' placeholder='__/__/____' aaname='Período de:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="c371d5e0-f405-4668-a6b4-dc5cc460f7ad" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='(2) - Sesmo Web - WILSON' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="df916620-ec2a-4678-a8b1-4354a2a13a09" CvTextArea="850, 578, 63, 12" CvTextArgument="Período de:" CvType="Text" DesignTimeRectangle="850, 578, 66, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='db_1765185299393' tag='LABEL' type='' class='Gnc_Control_Label Gnc_Control_Label-notEmpty' aaname='Período de:' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Período de:' /&gt;" Guid="d90e3113-8ba2-4024-8420-8a615599ebb2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cfa30086bd96f4a571a2730e82abe930.png" xmlns="">0ja85SbUS0UG2nJkQO3aZAw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

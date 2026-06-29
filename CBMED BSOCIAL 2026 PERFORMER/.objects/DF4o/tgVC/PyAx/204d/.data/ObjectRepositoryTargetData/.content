@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="et_mco6unU2zXsQajxBUbQ" Reference="10AlEvUyX0iO0ablpwLrpg/204da65oIEihitl4GgGmLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst/gestaoTrabalhadores" CVScreenId="c76ff203-6167-45dc-94dd-ba06f12a7088" CvElementArea="174, 486, 1044, 56" CvType="InputBox" DesignTimeRectangle="175, 435, 1044, 56" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl type='' matching:type='fuzzy' fuzzylevel:type='0.0' parentid='div-pesquisa' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='DIV' class='MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd MuiAutocomplete-inputRoot css-3yp7tr' matching:class='fuzzy' fuzzylevel:class='0.0' aaname='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="56b7adfc-c5e7-4f0a-b9ad-065929444d80" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c76ff203-6167-45dc-94dd-ba06f12a7088" CvTextArea="162, 428, 209, 22" CvTextArgument="Gestão de Empregados" CvType="Text" DesignTimeRectangle="163, 370, 1056, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H6' type='' class='MuiTypography-root MuiTypography-h6 css-trr9sm' aaname='Gestão de Empregados' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Gestão de Empregados' /&gt;" Guid="39e96cfd-b70f-4996-aae8-5bfc8896e1cd" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0aec2b830bd9e5c5025b20b99da1b583.png" xmlns="">0vI0zWMW4lkiX-u6Z1-uaQA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="mIQHRqWZCk6ov3ktHe0S_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="frontend.esocial.gov.br/sst" CVScreenId="dd283c02-fa82-4307-a25f-b95230f728df" CvTextArea="606, 224, 116, 13" CvTextArgument="Trocar Perfil/Módulo" CvType="Text" DesignTimeRectangle="608, 224, 114, 14" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Trocar Perfil/Módulo' tag='A' /&gt;" Guid="d150f164-de98-4910-9472-a7d339356d31" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dd283c02-fa82-4307-a25f-b95230f728df" CvTextArea="150, 246, 289, 12" CvTextArgument="Módulo Simplificado Saúde e Segurança do Trabalho" CvType="Text" DesignTimeRectangle="152, 244, 286, 18" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='MuiTypography-root MuiTypography-body1 css-1cwtao' aaname='Módulo Simplificado Saúde e Segurança do Trabalho' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Módulo Simplificado Saúde e Segurança do Trabalho' /&gt;" Guid="b31aa021-78ed-4ac4-8c4d-d4a02c0ea9c0" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="163e6b09572771be54e786a69fa85c57.png" xmlns="">0qfRFBUhBeUmCjDkTgtk4XQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

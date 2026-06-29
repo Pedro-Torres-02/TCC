@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rBLqgXjyUkCIZzpd7VLpWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="esocial.gov.br/portal/Home/Index" CVScreenId="6459798a-2f02-44ed-99b5-2998d4e6654a" CvElementArea="295, 262, 803, 65" CvType="InputBox" DesignTimeRectangle="350, 279, 692, 31" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='mensagemGeral' tag='SPAN' /&gt;" Guid="fbd12d66-8daf-4462-a278-ae96db8afc62" ScopeSelectorArgument="&lt;html app='chrome.exe' title='eSocial' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6459798a-2f02-44ed-99b5-2998d4e6654a" CvElementArea="312, 274, 26, 25" CvType="Icon" DesignTimeRectangle="310, 272, 30, 29" ElementType="Icon" Guid="f1bdd961-3b75-4dfe-807e-8b995bca6ed6" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAdCAYAAAC9pNwMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFjSURBVEhL7ZZPS0JBFMVFCFcSBBKBroKCQKjWQRREtInAReBHiPbR1wlaRCv7oyZBGGXYPj+BgW0sqP2N82Cgzp2ZN4I4GwcOjzf3nvNjnjPvmZH3vsRQhicmpSnYq6+HO3k7OZLHnXVprZWktpBNrrjHPOrscSkI/NN9ktfqXgJKE/rQzxmsVPDH5bncLuYVwCf0w8dZweDBxZlcFWdUcIjgg58zU8F4XPWl2X9hGAzw1eF3PXYn+KWypULNYKCv3jnYVNlOMHanK9SMUeqf93XFsIJ7p8feFZnhm/8r5DHDCsa5ZLMLwoM9UHt7VTGs4GZ5XplD4Nxr1FieUwwr+LqUU+Y0OPewmGEFR1txtN842q7GuQuBhtaDzzH0vL/hDOcV+erI4WwvONq7GorydTKK8j02+u60pXu4qwA2oQ/9nMEKAhthd+K/Fc5lY6WQgHDFPeaHrRvlcWkk8Dg1BU9MvwsT9elpByiyAAAAAElFTkSuQmCC" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8da6d4d477f610d9d9b600baf98a513.png" xmlns="">01bIX9kTf6UipHyetIkjwdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

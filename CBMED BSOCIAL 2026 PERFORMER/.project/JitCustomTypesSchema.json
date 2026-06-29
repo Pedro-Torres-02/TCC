@@ -1,0 +1,103 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 1,
+        "idRef": "NExtractDataGeneric`1_1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|0boGHSWN4TU46yFJonq77UWRJtcFKN7kt4Lccn92yFg",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Nome do Colaborador",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Aviso",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable1",
+        "hash": "NExtractDataGeneric`1_1|DataTable|tZzGhRpNvyU3DOAx2pmhwevaZ8iWDxtfrAyj1M5vf5o",
+        "assemblyName": "Studio.Generated.TypedDataTable1"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 2,
+        "idRef": "NExtractDataGeneric`1_2",
+        "hash": "NExtractDataGeneric`1_2|DataTable|O64BTogI25FhV8FlYtT9ew4jV552vYvhwFyovNRMGyc",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Nova coluna 0",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Nova coluna 1",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable2",
+        "hash": "NExtractDataGeneric`1_2|DataTable|6jvOlun7MbyXmMkcWPcOXselfJBwmPxZit90aIM",
+        "assemblyName": "Studio.Generated.TypedDataTable2"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 3,
+        "idRef": "NExtractDataGeneric`1_3",
+        "hash": "NExtractDataGeneric`1_3|DataTable|O64BTogI25FhV8FlYtT9ew4jV552vYvhwFyovNRMGyc",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Nova coluna 0",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Nova coluna 1",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable3",
+        "hash": "NExtractDataGeneric`1_3|DataTable|6jvOlun7MbyXmMkcWPcOXselfJBwmPxZit90aIM",
+        "assemblyName": "Studio.Generated.TypedDataTable3"
+      }
+    },
+    {
+      "providerName": "TypedDataTable",
+      "typedDataTableDto": {
+        "id": 4,
+        "idRef": "NExtractDataGeneric`1_3",
+        "hash": "NExtractDataGeneric`1_3|DataTable|O64BTogI25FhV8FlYtT9ew4jV552vYvhwFyovNRMGyc",
+        "dataType": "System.Data.DataTable, System.Data.Common",
+        "columns": [
+          {
+            "columnName": "Nova coluna 0",
+            "dataType": "System.String, System.Private.CoreLib"
+          },
+          {
+            "columnName": "Nova coluna 1",
+            "dataType": "System.String, System.Private.CoreLib"
+          }
+        ]
+      },
+      "entityAssemblyKey": {
+        "name": "Studio.Generated.TypedDataTable4",
+        "hash": "NExtractDataGeneric`1_3|DataTable|6jvOlun7MbyXmMkcWPcOXselfJBwmPxZit90aIM",
+        "assemblyName": "Studio.Generated.TypedDataTable4"
+      }
+    }
+  ]
+}
